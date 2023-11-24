@@ -1,0 +1,1671 @@
+{
+  "defaultIcon": {
+    "name": "folder.svg"
+  },
+  "icons": [
+    {
+      "name": "folder-robot.svg",
+      "folderNames": [
+        "bot",
+        "robot",
+        ".bot",
+        ".robot",
+        "_bot",
+        "_robot"
+      ]
+    },
+    {
+      "name": "folder-src.svg",
+      "folderNames": [
+        "src",
+        "srcs",
+        "source",
+        "sources",
+        "code"
+      ]
+    },
+    {
+      "name": "folder-dist.svg",
+      "folderNames": [
+        "dist",
+        "out",
+        "build",
+        "release",
+        "bin"
+      ]
+    },
+    {
+      "name": "folder-css.svg",
+      "folderNames": [
+        "css",
+        "stylesheet",
+        "stylesheets",
+        "style",
+        "styles"
+      ]
+    },
+    {
+      "name": "folder-sass.svg",
+      "folderNames": [
+        "sass",
+        "_sass",
+        "scss",
+        "_scss"
+      ]
+    },
+    {
+      "name": "folder-images.svg",
+      "folderNames": [
+        "_images",
+        "_image",
+        "_imgs",
+        "_img",
+        "images",
+        "image",
+        "imgs",
+        "img",
+        "icons",
+        "icon",
+        "icos",
+        "ico",
+        "figures",
+        "figure",
+        "figs",
+        "fig",
+        "screenshot",
+        "screenshots",
+        "screengrab",
+        "screengrabs",
+        "pic",
+        "pics",
+        "picture",
+        "pictures"
+      ]
+    },
+    {
+      "name": "folder-scripts.svg",
+      "folderNames": [
+        "script",
+        "scripts",
+        "scripting"
+      ]
+    },
+    {
+      "name": "folder-node.svg",
+      "folderNames": [
+        "node_modules"
+      ]
+    },
+    {
+      "name": "folder-javascript.svg",
+      "folderNames": [
+        "js",
+        "javascript",
+        "javascripts"
+      ]
+    },
+    {
+      "name": "folder-json.svg",
+      "folderNames": [
+        "json",
+        "jsons"
+      ]
+    },
+    {
+      "name": "folder-font.svg",
+      "folderNames": [
+        "font",
+        "fonts"
+      ]
+    },
+    {
+      "name": "folder-bower.svg",
+      "folderNames": [
+        "bower_components"
+      ]
+    },
+    {
+      "name": "folder-test.svg",
+      "folderNames": [
+        "test",
+        "tests",
+        "testing",
+        "__tests__",
+        "__snapshots__",
+        "__mocks__",
+        "__fixtures__",
+        "__test__",
+        "spec",
+        "specs"
+      ]
+    },
+    {
+      "name": "folder-jinja.svg",
+      "folderNames": [
+        "jinja",
+        "jinja2",
+        "j2"
+      ]
+    },
+    {
+      "name": "folder-markdown.svg",
+      "folderNames": [
+        "markdown",
+        "md"
+      ]
+    },
+    {
+      "name": "folder-php.svg",
+      "folderNames": [
+        "php"
+      ]
+    },
+    {
+      "name": "folder-phpmailer.svg",
+      "folderNames": [
+        "phpmailer"
+      ]
+    },
+    {
+      "name": "folder-sublime.svg",
+      "folderNames": [
+        "sublime"
+      ]
+    },
+    {
+      "name": "folder-docs.svg",
+      "folderNames": [
+        "_post",
+        "_posts",
+        "doc",
+        "docs",
+        "document",
+        "documents",
+        "documentation",
+        "post",
+        "posts",
+        "article",
+        "articles"
+      ]
+    },
+    {
+      "name": "folder-git.svg",
+      "folderNames": [
+        ".git",
+        "patches",
+        "githooks",
+        ".githooks",
+        "submodules",
+        ".submodules"
+      ]
+    },
+    {
+      "name": "folder-github.svg",
+      "folderNames": [
+        ".github",
+        "github"
+      ]
+    },
+    {
+      "name": "folder-gitlab.svg",
+      "folderNames": [
+        ".gitlab"
+      ]
+    },
+    {
+      "name": "folder-vscode.svg",
+      "folderNames": [
+        ".vscode",
+        ".vscode-test"
+      ]
+    },
+    {
+      "name": "folder-views.svg",
+      "folderNames": [
+        "view",
+        "views",
+        "screen",
+        "screens",
+        "page",
+        "pages",
+        "public_html",
+        "html"
+      ]
+    },
+    {
+      "name": "folder-vue.svg",
+      "folderNames": [
+        "vue"
+      ]
+    },
+    {
+      "name": "folder-vuepress.svg",
+      "folderNames": [
+        ".vuepress"
+      ]
+    },
+    {
+      "name": "folder-expo.svg",
+      "folderNames": [
+        ".expo",
+        ".expo-shared"
+      ]
+    },
+    {
+      "name": "folder-config.svg",
+      "folderNames": [
+        "cfg",
+        "cfgs",
+        "conf",
+        "confs",
+        "config",
+        "configs",
+        "configuration",
+        "configurations",
+        "setting",
+        ".setting",
+        "settings",
+        ".settings",
+        "META-INF",
+        "option",
+        "options"
+      ]
+    },
+    {
+      "name": "folder-i18n.svg",
+      "folderNames": [
+        "i18n",
+        "internationalization",
+        "lang",
+        "langs",
+        "language",
+        "languages",
+        "locale",
+        "locales",
+        "l10n",
+        "localization",
+        "translation",
+        "translate",
+        "translations",
+        ".tx"
+      ]
+    },
+    {
+      "name": "folder-components.svg",
+      "folderNames": [
+        "components",
+        "widget",
+        "widgets",
+        "fragments"
+      ]
+    },
+    {
+      "name": "folder-verdaccio.svg",
+      "folderNames": [
+        ".verdaccio",
+        "verdaccio"
+      ]
+    },
+    {
+      "name": "folder-aurelia.svg",
+      "folderNames": [
+        "aurelia_project"
+      ]
+    },
+    {
+      "name": "folder-resource.svg",
+      "folderNames": [
+        "resource",
+        "resources",
+        "res",
+        "asset",
+        "assets",
+        "static",
+        "report",
+        "reports"
+      ]
+    },
+    {
+      "name": "folder-lib.svg",
+      "folderNames": [
+        "lib",
+        "libs",
+        "library",
+        "libraries",
+        "vendor",
+        "vendors",
+        "third-party"
+      ]
+    },
+    {
+      "name": "folder-theme.svg",
+      "folderNames": [
+        "themes",
+        "theme",
+        "color",
+        "colors",
+        "design",
+        "designs"
+      ]
+    },
+    {
+      "name": "folder-webpack.svg",
+      "folderNames": [
+        "webpack",
+        ".webpack"
+      ]
+    },
+    {
+      "name": "folder-global.svg",
+      "folderNames": [
+        "global"
+      ]
+    },
+    {
+      "name": "folder-public.svg",
+      "folderNames": [
+        "_site",
+        "public",
+        "www",
+        "wwwroot",
+        "web",
+        "website",
+        "site",
+        "browser",
+        "browsers"
+      ]
+    },
+    {
+      "name": "folder-include.svg",
+      "folderNames": [
+        "include",
+        "includes",
+        "_includes",
+        "inc",
+        "partials",
+        "_partials"
+      ]
+    },
+    {
+      "name": "folder-docker.svg",
+      "folderNames": [
+        "docker",
+        "dockerfiles",
+        ".docker"
+      ]
+    },
+    {
+      "name": "folder-ngrx-effects.svg",
+      "folderNames": [
+        "effects"
+      ]
+    },
+    {
+      "name": "folder-ngrx-store.svg",
+      "folderNames": [
+        "store"
+      ]
+    },
+    {
+      "name": "folder-ngrx-state.svg",
+      "folderNames": [
+        "states",
+        "state"
+      ]
+    },
+    {
+      "name": "folder-ngrx-reducer.svg",
+      "folderNames": [
+        "reducers",
+        "reducer"
+      ]
+    },
+    {
+      "name": "folder-ngrx-actions.svg",
+      "folderNames": [
+        "actions"
+      ]
+    },
+    {
+      "name": "folder-ngrx-entities.svg",
+      "folderNames": [
+        "entities"
+      ]
+    },
+    {
+      "name": "folder-ngrx-selectors.svg",
+      "folderNames": [
+        "selectors"
+      ]
+    },
+    {
+      "name": "folder-redux-reducer.svg",
+      "folderNames": [
+        "reducers",
+        "reducer"
+      ]
+    },
+    {
+      "name": "folder-redux-actions.svg",
+      "folderNames": [
+        "actions"
+      ]
+    },
+    {
+      "name": "folder-redux-selector.svg",
+      "folderNames": [
+        "selectors",
+        "selector"
+      ]
+    },
+    {
+      "name": "folder-redux-store.svg",
+      "folderNames": [
+        "store",
+        "stores"
+      ]
+    },
+    {
+      "name": "folder-react-components.svg",
+      "folderNames": [
+        "components",
+        "react",
+        "jsx",
+        "reactjs"
+      ]
+    },
+    {
+      "name": "folder-database.svg",
+      "folderNames": [
+        "db",
+        "database",
+        "databases",
+        "sql",
+        "data",
+        "_data"
+      ]
+    },
+    {
+      "name": "folder-log.svg",
+      "folderNames": [
+        "log",
+        "logs",
+        "logging"
+      ]
+    },
+    {
+      "name": "folder-target.svg",
+      "folderNames": [
+        "target"
+      ]
+    },
+    {
+      "name": "folder-temp.svg",
+      "folderNames": [
+        "temp",
+        ".temp",
+        "tmp",
+        ".tmp",
+        "cached",
+        "cache",
+        ".cache"
+      ]
+    },
+    {
+      "name": "folder-aws.svg",
+      "folderNames": [
+        "aws",
+        ".aws"
+      ]
+    },
+    {
+      "name": "folder-audio.svg",
+      "folderNames": [
+        "aud",
+        "auds",
+        "audio",
+        "audios",
+        "music",
+        "sound",
+        "sounds"
+      ]
+    },
+    {
+      "name": "folder-video.svg",
+      "folderNames": [
+        "vid",
+        "vids",
+        "video",
+        "videos",
+        "movie",
+        "movies"
+      ]
+    },
+    {
+      "name": "folder-kubernetes.svg",
+      "folderNames": [
+        "kubernetes",
+        ".kubernetes",
+        "k8s",
+        ".k8s"
+      ]
+    },
+    {
+      "name": "folder-import.svg",
+      "folderNames": [
+        "import",
+        "imports",
+        "imported"
+      ]
+    },
+    {
+      "name": "folder-export.svg",
+      "folderNames": [
+        "export",
+        "exports",
+        "exported"
+      ]
+    },
+    {
+      "name": "folder-wakatime.svg",
+      "folderNames": [
+        "wakatime"
+      ]
+    },
+    {
+      "name": "folder-circleci.svg",
+      "folderNames": [
+        ".circleci"
+      ]
+    },
+    {
+      "name": "folder-wordpress.svg",
+      "folderNames": [
+        ".wordpress-org",
+        "wp-content"
+      ]
+    },
+    {
+      "name": "folder-gradle.svg",
+      "folderNames": [
+        "gradle",
+        ".gradle"
+      ]
+    },
+    {
+      "name": "folder-coverage.svg",
+      "folderNames": [
+        "coverage",
+        ".nyc-output",
+        ".nyc_output",
+        "e2e",
+        "it",
+        "integration-test",
+        "integration-tests",
+        "__integration-test__",
+        "__integration-tests__"
+      ]
+    },
+    {
+      "name": "folder-class.svg",
+      "folderNames": [
+        "class",
+        "classes",
+        "model",
+        "models",
+        "schemas",
+        "schema"
+      ]
+    },
+    {
+      "name": "folder-other.svg",
+      "folderNames": [
+        "other",
+        "others",
+        "misc",
+        "miscellaneous",
+        "extra",
+        "extras",
+        "etc"
+      ]
+    },
+    {
+      "name": "folder-lua.svg",
+      "folderNames": [
+        "lua"
+      ]
+    },
+    {
+      "name": "folder-typescript.svg",
+      "folderNames": [
+        "typescript",
+        "ts",
+        "typings",
+        "@types",
+        "types"
+      ]
+    },
+    {
+      "name": "folder-graphql.svg",
+      "folderNames": [
+        "graphql",
+        "gql"
+      ]
+    },
+    {
+      "name": "folder-routes.svg",
+      "folderNames": [
+        "routes",
+        "router",
+        "routers"
+      ]
+    },
+    {
+      "name": "folder-ci.svg",
+      "folderNames": [
+        ".ci",
+        "ci"
+      ]
+    },
+    {
+      "name": "folder-benchmark.svg",
+      "folderNames": [
+        "benchmark",
+        "benchmarks",
+        "performance",
+        "measure",
+        "measures",
+        "measurement"
+      ]
+    },
+    {
+      "name": "folder-messages.svg",
+      "folderNames": [
+        "messages",
+        "messaging",
+        "forum",
+        "chat",
+        "chats",
+        "conversation",
+        "conversations"
+      ]
+    },
+    {
+      "name": "folder-less.svg",
+      "folderNames": [
+        "less"
+      ]
+    },
+    {
+      "name": "folder-gulp.svg",
+      "folderNames": [
+        "gulp",
+        "gulp-tasks",
+        "gulpfile.js",
+        "gulpfile.mjs",
+        "gulpfile.ts",
+        "gulpfile.babel.js"
+      ]
+    },
+    {
+      "name": "folder-python.svg",
+      "folderNames": [
+        "python",
+        "__pycache__",
+        ".pytest_cache"
+      ]
+    },
+    {
+      "name": "folder-mojo.svg",
+      "folderNames": [
+        "mojo"
+      ]
+    },
+    {
+      "name": "folder-debug.svg",
+      "folderNames": [
+        "debug",
+        "debugging"
+      ]
+    },
+    {
+      "name": "folder-fastlane.svg",
+      "folderNames": [
+        "fastlane"
+      ]
+    },
+    {
+      "name": "folder-plugin.svg",
+      "folderNames": [
+        "plugin",
+        "plugins",
+        "_plugins",
+        "mod",
+        "mods",
+        "modding",
+        "extension",
+        "extensions",
+        "addon",
+        "addons",
+        "module",
+        "modules"
+      ]
+    },
+    {
+      "name": "folder-middleware.svg",
+      "folderNames": [
+        "middleware",
+        "middlewares"
+      ]
+    },
+    {
+      "name": "folder-controller.svg",
+      "folderNames": [
+        "controller",
+        "controllers",
+        "service",
+        "services",
+        "provider",
+        "providers",
+        "handler",
+        "handlers"
+      ]
+    },
+    {
+      "name": "folder-ansible.svg",
+      "folderNames": [
+        "ansible"
+      ]
+    },
+    {
+      "name": "folder-server.svg",
+      "folderNames": [
+        "server",
+        "servers",
+        "backend"
+      ]
+    },
+    {
+      "name": "folder-client.svg",
+      "folderNames": [
+        "client",
+        "clients",
+        "frontend",
+        "frontends",
+        "pwa"
+      ]
+    },
+    {
+      "name": "folder-tasks.svg",
+      "folderNames": [
+        "tasks",
+        "tickets"
+      ]
+    },
+    {
+      "name": "folder-android.svg",
+      "folderNames": [
+        "android"
+      ]
+    },
+    {
+      "name": "folder-ios.svg",
+      "folderNames": [
+        "ios"
+      ]
+    },
+    {
+      "name": "folder-upload.svg",
+      "folderNames": [
+        "uploads",
+        "upload"
+      ]
+    },
+    {
+      "name": "folder-download.svg",
+      "folderNames": [
+        "downloads",
+        "download"
+      ]
+    },
+    {
+      "name": "folder-tools.svg",
+      "folderNames": [
+        "tools",
+        "toolkit",
+        "toolkits",
+        "toolbox",
+        "toolboxes"
+      ]
+    },
+    {
+      "name": "folder-helper.svg",
+      "folderNames": [
+        "helpers",
+        "helper"
+      ]
+    },
+    {
+      "name": "folder-serverless.svg",
+      "folderNames": [
+        ".serverless",
+        "serverless"
+      ]
+    },
+    {
+      "name": "folder-api.svg",
+      "folderNames": [
+        "api",
+        "apis",
+        "restapi"
+      ]
+    },
+    {
+      "name": "folder-app.svg",
+      "folderNames": [
+        "app",
+        "apps"
+      ]
+    },
+    {
+      "name": "folder-apollo.svg",
+      "folderNames": [
+        "apollo",
+        "apollo-client",
+        "apollo-cache",
+        "apollo-config"
+      ]
+    },
+    {
+      "name": "folder-archive.svg",
+      "folderNames": [
+        "arc",
+        "arcs",
+        "archive",
+        "archives",
+        "archival",
+        "bkp",
+        "bkps",
+        "bak",
+        "baks",
+        "backup",
+        "backups",
+        "back-up",
+        "back-ups",
+        "history",
+        "histories"
+      ]
+    },
+    {
+      "name": "folder-batch.svg",
+      "folderNames": [
+        "batch",
+        "batchs",
+        "batches"
+      ]
+    },
+    {
+      "name": "folder-buildkite.svg",
+      "folderNames": [
+        "buildkite",
+        ".buildkite"
+      ]
+    },
+    {
+      "name": "folder-cluster.svg",
+      "folderNames": [
+        "cluster",
+        "clusters"
+      ]
+    },
+    {
+      "name": "folder-command.svg",
+      "folderNames": [
+        "command",
+        "commands",
+        "cmd",
+        "cli",
+        "clis"
+      ]
+    },
+    {
+      "name": "folder-constant.svg",
+      "folderNames": [
+        "constant",
+        "constants"
+      ]
+    },
+    {
+      "name": "folder-container.svg",
+      "folderNames": [
+        "container",
+        "containers",
+        ".devcontainer"
+      ]
+    },
+    {
+      "name": "folder-content.svg",
+      "folderNames": [
+        "content",
+        "contents"
+      ]
+    },
+    {
+      "name": "folder-context.svg",
+      "folderNames": [
+        "context",
+        "contexts"
+      ]
+    },
+    {
+      "name": "folder-core.svg",
+      "folderNames": [
+        "core"
+      ]
+    },
+    {
+      "name": "folder-delta.svg",
+      "folderNames": [
+        "delta",
+        "deltas",
+        "changes"
+      ]
+    },
+    {
+      "name": "folder-dump.svg",
+      "folderNames": [
+        "dump",
+        "dumps"
+      ]
+    },
+    {
+      "name": "folder-examples.svg",
+      "folderNames": [
+        "demo",
+        "demos",
+        "example",
+        "examples",
+        "sample",
+        "samples",
+        "sample-data"
+      ]
+    },
+    {
+      "name": "folder-environment.svg",
+      "folderNames": [
+        ".env",
+        ".environment",
+        "env",
+        "envs",
+        "environment",
+        "environments",
+        ".venv"
+      ]
+    },
+    {
+      "name": "folder-functions.svg",
+      "folderNames": [
+        "func",
+        "funcs",
+        "function",
+        "functions",
+        "lambda",
+        "lambdas",
+        "logic",
+        "math",
+        "maths",
+        "calc",
+        "calcs",
+        "calculation",
+        "calculations"
+      ]
+    },
+    {
+      "name": "folder-generator.svg",
+      "folderNames": [
+        "generator",
+        "generators",
+        "generated",
+        "cfn-gen",
+        "gen",
+        "gens",
+        "auto"
+      ]
+    },
+    {
+      "name": "folder-hook.svg",
+      "folderNames": [
+        "hook",
+        "hooks",
+        "trigger",
+        "triggers"
+      ]
+    },
+    {
+      "name": "folder-job.svg",
+      "folderNames": [
+        "job",
+        "jobs"
+      ]
+    },
+    {
+      "name": "folder-keys.svg",
+      "folderNames": [
+        "key",
+        "keys",
+        "token",
+        "tokens",
+        "jwt",
+        "secret",
+        "secrets"
+      ]
+    },
+    {
+      "name": "folder-layout.svg",
+      "folderNames": [
+        "layout",
+        "layouts",
+        "_layouts"
+      ]
+    },
+    {
+      "name": "folder-mail.svg",
+      "folderNames": [
+        "mail",
+        "mails",
+        "email",
+        "emails",
+        "smtp",
+        "mailers"
+      ]
+    },
+    {
+      "name": "folder-mappings.svg",
+      "folderNames": [
+        "mappings",
+        "mapping"
+      ]
+    },
+    {
+      "name": "folder-meta.svg",
+      "folderNames": [
+        "meta"
+      ]
+    },
+    {
+      "name": "folder-changesets.svg",
+      "folderNames": [
+        ".changesets",
+        ".changeset"
+      ]
+    },
+    {
+      "name": "folder-packages.svg",
+      "folderNames": [
+        "package",
+        "packages",
+        "pkg",
+        "pkgs"
+      ]
+    },
+    {
+      "name": "folder-shared.svg",
+      "folderNames": [
+        "shared",
+        "common"
+      ]
+    },
+    {
+      "name": "folder-shader.svg",
+      "folderNames": [
+        "glsl",
+        "hlsl",
+        "shader",
+        "shaders"
+      ]
+    },
+    {
+      "name": "folder-stack.svg",
+      "folderNames": [
+        "stack",
+        "stacks"
+      ]
+    },
+    {
+      "name": "folder-template.svg",
+      "folderNames": [
+        "template",
+        "templates"
+      ]
+    },
+    {
+      "name": "folder-utils.svg",
+      "folderNames": [
+        "util",
+        "utils",
+        "utility",
+        "utilities"
+      ]
+    },
+    {
+      "name": "folder-supabase.svg",
+      "folderNames": [
+        "supabase",
+        ".supabase"
+      ]
+    },
+    {
+      "name": "folder-private.svg",
+      "folderNames": [
+        "private",
+        ".private"
+      ]
+    },
+    {
+      "name": "folder-linux.svg",
+      "folderNames": [
+        "linux"
+      ]
+    },
+    {
+      "name": "folder-windows.svg",
+      "folderNames": [
+        "windows"
+      ]
+    },
+    {
+      "name": "folder-macos.svg",
+      "folderNames": [
+        "macos",
+        ".DS_Store"
+      ]
+    },
+    {
+      "name": "folder-error.svg",
+      "folderNames": [
+        "error",
+        "errors",
+        "err",
+        "errs",
+        "crash",
+        "crashes"
+      ]
+    },
+    {
+      "name": "folder-event.svg",
+      "folderNames": [
+        "event",
+        "events"
+      ]
+    },
+    {
+      "name": "folder-secure.svg",
+      "folderNames": [
+        "auth",
+        "authentication",
+        "secure",
+        "security",
+        "cert",
+        "certs",
+        "certificate",
+        "certificates",
+        "ssl"
+      ]
+    },
+    {
+      "name": "folder-custom.svg",
+      "folderNames": [
+        "custom",
+        "customs"
+      ]
+    },
+    {
+      "name": "folder-mock.svg",
+      "folderNames": [
+        "_draft",
+        "_drafts",
+        "mock",
+        "mocks",
+        "fixture",
+        "fixtures",
+        "draft",
+        "drafts",
+        "concept",
+        "concepts",
+        "sketch",
+        "sketches"
+      ]
+    },
+    {
+      "name": "folder-syntax.svg",
+      "folderNames": [
+        "syntax",
+        "syntaxes",
+        "spellcheck"
+      ]
+    },
+    {
+      "name": "folder-vm.svg",
+      "folderNames": [
+        "vm",
+        "vms"
+      ]
+    },
+    {
+      "name": "folder-stylus.svg",
+      "folderNames": [
+        "stylus"
+      ]
+    },
+    {
+      "name": "folder-flow.svg",
+      "folderNames": [
+        "flow-typed"
+      ]
+    },
+    {
+      "name": "folder-rules.svg",
+      "folderNames": [
+        "rule",
+        "rules",
+        "validation",
+        "validations",
+        "validator",
+        "validators"
+      ]
+    },
+    {
+      "name": "folder-review.svg",
+      "folderNames": [
+        "review",
+        "reviews",
+        "revisal",
+        "revisals",
+        "reviewed"
+      ]
+    },
+    {
+      "name": "folder-animation.svg",
+      "folderNames": [
+        "anim",
+        "anims",
+        "animation",
+        "animations",
+        "animated"
+      ]
+    },
+    {
+      "name": "folder-guard.svg",
+      "folderNames": [
+        "guard",
+        "guards"
+      ]
+    },
+    {
+      "name": "folder-prisma.svg",
+      "folderNames": [
+        "prisma"
+      ]
+    },
+    {
+      "name": "folder-pipe.svg",
+      "folderNames": [
+        "pipe",
+        "pipes"
+      ]
+    },
+    {
+      "name": "folder-svg.svg",
+      "folderNames": [
+        "svg",
+        "svgs"
+      ]
+    },
+    {
+      "name": "folder-vuex-store.svg",
+      "folderNames": [
+        "store",
+        "stores"
+      ]
+    },
+    {
+      "name": "folder-nuxt.svg",
+      "folderNames": [
+        "nuxt",
+        ".nuxt"
+      ]
+    },
+    {
+      "name": "folder-vue-directives.svg",
+      "folderNames": [
+        "directives"
+      ]
+    },
+    {
+      "name": "folder-vue.svg",
+      "folderNames": [
+        "components"
+      ]
+    },
+    {
+      "name": "folder-terraform.svg",
+      "folderNames": [
+        "terraform",
+        ".terraform"
+      ]
+    },
+    {
+      "name": "folder-mobile.svg",
+      "folderNames": [
+        "mobile",
+        "mobiles",
+        "portable",
+        "portability"
+      ]
+    },
+    {
+      "name": "folder-stencil.svg",
+      "folderNames": [
+        ".stencil"
+      ]
+    },
+    {
+      "name": "folder-firebase.svg",
+      "folderNames": [
+        "firebase",
+        ".firebase"
+      ]
+    },
+    {
+      "name": "folder-svelte.svg",
+      "folderNames": [
+        "svelte",
+        ".svelte-kit"
+      ]
+    },
+    {
+      "name": "folder-update.svg",
+      "folderNames": [
+        "update",
+        "updates",
+        "upgrade",
+        "upgrades"
+      ]
+    },
+    {
+      "name": "folder-intellij.svg",
+      "folderNames": [
+        ".idea"
+      ]
+    },
+    {
+      "name": "folder-azure-pipelines.svg",
+      "folderNames": [
+        ".azure-pipelines",
+        ".azure-pipelines-ci"
+      ]
+    },
+    {
+      "name": "folder-mjml.svg",
+      "folderNames": [
+        "mjml"
+      ]
+    },
+    {
+      "name": "folder-admin.svg",
+      "folderNames": [
+        "admin",
+        "admins",
+        "manager",
+        "managers",
+        "moderator",
+        "moderators"
+      ]
+    },
+    {
+      "name": "folder-scala.svg",
+      "folderNames": [
+        "scala"
+      ]
+    },
+    {
+      "name": "folder-connection.svg",
+      "folderNames": [
+        "connection",
+        "connections",
+        "integration",
+        "integrations"
+      ]
+    },
+    {
+      "name": "folder-quasar.svg",
+      "folderNames": [
+        ".quasar"
+      ]
+    },
+    {
+      "name": "folder-next.svg",
+      "folderNames": [
+        ".next"
+      ]
+    },
+    {
+      "name": "folder-cobol.svg",
+      "folderNames": [
+        "cobol"
+      ]
+    },
+    {
+      "name": "folder-yarn.svg",
+      "folderNames": [
+        "yarn",
+        ".yarn"
+      ]
+    },
+    {
+      "name": "folder-husky.svg",
+      "folderNames": [
+        "husky",
+        ".husky"
+      ]
+    },
+    {
+      "name": "folder-storybook.svg",
+      "folderNames": [
+        ".storybook",
+        "storybook",
+        "stories",
+        "__stories__"
+      ]
+    },
+    {
+      "name": "folder-base.svg",
+      "folderNames": [
+        "base",
+        ".base",
+        "bases"
+      ]
+    },
+    {
+      "name": "folder-cart.svg",
+      "folderNames": [
+        "cart",
+        "shopping-cart",
+        "shopping",
+        "shop"
+      ]
+    },
+    {
+      "name": "folder-home.svg",
+      "folderNames": [
+        "home",
+        ".home",
+        "start",
+        ".start"
+      ]
+    },
+    {
+      "name": "folder-project.svg",
+      "folderNames": [
+        "project",
+        "projects",
+        ".project",
+        ".projects"
+      ]
+    },
+    {
+      "name": "folder-interface.svg",
+      "folderNames": [
+        "interface",
+        "interfaces"
+      ]
+    },
+    {
+      "name": "folder-netlify.svg",
+      "folderNames": [
+        ".netlify"
+      ]
+    },
+    {
+      "name": "folder-enum.svg",
+      "folderNames": [
+        "enum",
+        "enums"
+      ]
+    },
+    {
+      "name": "folder-contract.svg",
+      "folderNames": [
+        "pact",
+        "pacts",
+        "contract",
+        ".contract",
+        "contracts",
+        "contract-testing",
+        "contract-test",
+        "contract-tests"
+      ]
+    },
+    {
+      "name": "folder-queue.svg",
+      "folderNames": [
+        "queue",
+        "queues",
+        "bull",
+        "mq"
+      ]
+    },
+    {
+      "name": "folder-vercel.svg",
+      "folderNames": [
+        "vercel",
+        ".vercel",
+        "now",
+        ".now"
+      ]
+    },
+    {
+      "name": "folder-cypress.svg",
+      "folderNames": [
+        "cypress",
+        ".cypress"
+      ]
+    },
+    {
+      "name": "folder-decorators.svg",
+      "folderNames": [
+        "decorator",
+        "decorators"
+      ]
+    },
+    {
+      "name": "folder-java.svg",
+      "folderNames": [
+        "java"
+      ]
+    },
+    {
+      "name": "folder-resolver.svg",
+      "folderNames": [
+        "resolver",
+        "resolvers"
+      ]
+    },
+    {
+      "name": "folder-angular.svg",
+      "folderNames": [
+        "angular",
+        ".angular"
+      ]
+    },
+    {
+      "name": "folder-unity.svg",
+      "folderNames": [
+        "unity"
+      ]
+    },
+    {
+      "name": "folder-pdf.svg",
+      "folderNames": [
+        "pdf",
+        "pdfs"
+      ]
+    },
+    {
+      "name": "folder-proto.svg",
+      "folderNames": [
+        "protobufs",
+        "proto"
+      ]
+    },
+    {
+      "name": "folder-plastic.svg",
+      "folderNames": [
+        "plastic",
+        ".plastic"
+      ]
+    },
+    {
+      "name": "folder-gamemaker.svg",
+      "folderNames": [
+        "gamemaker",
+        "gamemaker2"
+      ]
+    },
+    {
+      "name": "folder-mercurial.svg",
+      "folderNames": [
+        ".hg",
+        "hghooks",
+        ".hghooks",
+        ".hgext"
+      ]
+    },
+    {
+      "name": "folder-godot.svg",
+      "folderNames": [
+        "godot",
+        ".godot",
+        "godot-cpp",
+        ".godot-cpp"
+      ]
+    },
+    {
+      "name": "folder-lottie.svg",
+      "folderNames": [
+        "lottie",
+        "lotties",
+        "lottiefiles"
+      ]
+    },
+    {
+      "name": "folder-taskfile.svg",
+      "folderNames": [
+        "taskfile",
+        "taskfiles",
+        ".taskfile",
+        ".taskfiles"
+      ]
+    }
+  ]
+}

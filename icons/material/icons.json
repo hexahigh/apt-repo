@@ -1,0 +1,4294 @@
+{
+  "defaultIcon": {
+    "name": "file.svg"
+  },
+  "icons": [
+    {
+      "name": "html.svg",
+      "fileExtensions": [
+        "htm",
+        "xhtml",
+        "html_vm",
+        "asp"
+      ]
+    },
+    {
+      "name": "pug.svg",
+      "fileExtensions": [
+        "jade",
+        "pug"
+      ],
+      "fileNames": [
+        ".pug-lintrc",
+        ".pug-lintrc.js",
+        ".pug-lintrc.json"
+      ]
+    },
+    {
+      "name": "markdown.svg",
+      "fileExtensions": [
+        "md",
+        "markdown",
+        "rst"
+      ]
+    },
+    {
+      "name": "blink.svg",
+      "fileExtensions": [
+        "blink"
+      ]
+    },
+    {
+      "name": "css.svg",
+      "fileExtensions": [
+        "css"
+      ]
+    },
+    {
+      "name": "sass.svg",
+      "fileExtensions": [
+        "scss",
+        "sass"
+      ]
+    },
+    {
+      "name": "less.svg",
+      "fileExtensions": [
+        "less"
+      ]
+    },
+    {
+      "name": "json.svg",
+      "fileExtensions": [
+        "json",
+        "jsonc",
+        "tsbuildinfo",
+        "json5",
+        "jsonl",
+        "ndjson"
+      ],
+      "fileNames": [
+        ".jscsrc",
+        ".jshintrc",
+        "composer.lock",
+        ".jsbeautifyrc",
+        ".esformatter",
+        "cdp.pid",
+        ".lintstagedrc",
+        ".whitesource"
+      ]
+    },
+    {
+      "name": "hjson.svg",
+      "fileExtensions": [
+        "hjson"
+      ]
+    },
+    {
+      "name": "jinja.svg",
+      "fileExtensions": [
+        "jinja",
+        "jinja2",
+        "j2",
+        "jinja-html"
+      ]
+    },
+    {
+      "name": "proto.svg",
+      "fileExtensions": [
+        "proto"
+      ]
+    },
+    {
+      "name": "playwright.svg",
+      "fileNames": [
+        "playwright.config.js",
+        "playwright.config.mjs",
+        "playwright.config.ts",
+        "playwright.config.base.js",
+        "playwright.config.base.mjs",
+        "playwright.config.base.ts",
+        "playwright-ct.config.js",
+        "playwright-ct.config.mjs",
+        "playwright-ct.config.ts"
+      ]
+    },
+    {
+      "name": "sublime.svg",
+      "fileExtensions": [
+        "sublime-project",
+        "sublime-workspace"
+      ]
+    },
+    {
+      "name": "twine.svg",
+      "fileExtensions": [
+        "tw",
+        "twee"
+      ]
+    },
+    {
+      "name": "yaml.svg",
+      "fileExtensions": [
+        "yml.dist",
+        "yaml.dist",
+        "YAML-tmLanguage"
+      ]
+    },
+    {
+      "name": "xml.svg",
+      "fileExtensions": [
+        "xml",
+        "plist",
+        "xsd",
+        "dtd",
+        "xsl",
+        "xslt",
+        "resx",
+        "iml",
+        "xquery",
+        "tmLanguage",
+        "manifest",
+        "project",
+        "xml.dist",
+        "xml.dist.sample",
+        "dmn",
+        "jrxml"
+      ],
+      "fileNames": [
+        ".htaccess"
+      ]
+    },
+    {
+      "name": "image.svg",
+      "fileExtensions": [
+        "png",
+        "jpeg",
+        "jpg",
+        "gif",
+        "ico",
+        "tif",
+        "tiff",
+        "psd",
+        "psb",
+        "ami",
+        "apx",
+        "avif",
+        "bmp",
+        "bpg",
+        "brk",
+        "cur",
+        "dds",
+        "dng",
+        "exr",
+        "fpx",
+        "gbr",
+        "img",
+        "jbig2",
+        "jb2",
+        "jng",
+        "jxr",
+        "pgf",
+        "pic",
+        "raw",
+        "webp",
+        "eps",
+        "afphoto",
+        "ase",
+        "aseprite",
+        "clip",
+        "cpt",
+        "heif",
+        "heic",
+        "kra",
+        "mdp",
+        "ora",
+        "pdn",
+        "reb",
+        "sai",
+        "tga",
+        "xcf",
+        "jfif",
+        "ppm",
+        "pbm",
+        "pgm",
+        "pnm",
+        "icns"
+      ]
+    },
+    {
+      "name": "javascript.svg",
+      "fileExtensions": [
+        "esx",
+        "mjs"
+      ]
+    },
+    {
+      "name": "react.svg",
+      "fileExtensions": [
+        "jsx"
+      ]
+    },
+    {
+      "name": "react_ts.svg",
+      "fileExtensions": [
+        "tsx"
+      ]
+    },
+    {
+      "name": "routing.svg",
+      "fileExtensions": [
+        "routing.ts",
+        "routing.tsx",
+        "routing.js",
+        "routing.jsx",
+        "routes.ts",
+        "routes.tsx",
+        "routes.js",
+        "routes.jsx"
+      ],
+      "fileNames": [
+        "router.js",
+        "router.jsx",
+        "router.ts",
+        "router.tsx",
+        "routes.js",
+        "routes.jsx",
+        "routes.ts",
+        "routes.tsx"
+      ]
+    },
+    {
+      "name": "redux-action.svg",
+      "fileExtensions": [
+        "action.js",
+        "actions.js",
+        "action.ts",
+        "actions.ts"
+      ],
+      "fileNames": [
+        "action.js",
+        "actions.js",
+        "action.ts",
+        "actions.ts"
+      ]
+    },
+    {
+      "name": "redux-reducer.svg",
+      "fileExtensions": [
+        "reducer.js",
+        "reducers.js",
+        "reducer.ts",
+        "reducers.ts"
+      ],
+      "fileNames": [
+        "reducer.js",
+        "reducers.js",
+        "reducer.ts",
+        "reducers.ts"
+      ]
+    },
+    {
+      "name": "redux-selector.svg",
+      "fileExtensions": [
+        "selector.js",
+        "selectors.js",
+        "selector.ts",
+        "selectors.ts"
+      ],
+      "fileNames": [
+        "selector.js",
+        "selectors.js",
+        "selector.ts",
+        "selectors.ts"
+      ]
+    },
+    {
+      "name": "redux-store.svg",
+      "fileExtensions": [
+        "store.js",
+        "store.ts"
+      ],
+      "fileNames": [
+        "store.js",
+        "store.ts"
+      ]
+    },
+    {
+      "name": "settings.svg",
+      "fileExtensions": [
+        "ini",
+        "dlc",
+        "dll",
+        "config",
+        "conf",
+        "properties",
+        "prop",
+        "settings",
+        "option",
+        "props",
+        "toml",
+        "prefs",
+        "sln.dotsettings",
+        "sln.dotsettings.user",
+        "cfg"
+      ],
+      "fileNames": [
+        ".jshintignore",
+        ".buildignore",
+        ".mrconfig",
+        ".yardopts",
+        "manifest.mf",
+        ".clang-format",
+        ".clang-tidy"
+      ]
+    },
+    {
+      "name": "typescript-def.svg",
+      "fileExtensions": [
+        "d.ts",
+        "d.cts",
+        "d.mts"
+      ]
+    },
+    {
+      "name": "markojs.svg",
+      "fileExtensions": [
+        "marko"
+      ]
+    },
+    {
+      "name": "astro.svg",
+      "fileExtensions": [
+        "astro"
+      ],
+      "fileNames": [
+        "astro.config.js",
+        "astro.config.mjs",
+        "astro.config.cjs",
+        "astro.config.ts",
+        "astro.config.cts",
+        "astro.config.mts"
+      ]
+    },
+    {
+      "name": "pdf.svg",
+      "fileExtensions": [
+        "pdf"
+      ]
+    },
+    {
+      "name": "table.svg",
+      "fileExtensions": [
+        "xlsx",
+        "xlsm",
+        "xls",
+        "csv",
+        "tsv",
+        "psv",
+        "ods"
+      ]
+    },
+    {
+      "name": "vscode.svg",
+      "fileExtensions": [
+        "vscodeignore",
+        "vsixmanifest",
+        "vsix",
+        "code-workplace",
+        "code-workspace",
+        "code-profile",
+        "code-snippets"
+      ]
+    },
+    {
+      "name": "visualstudio.svg",
+      "fileExtensions": [
+        "csproj",
+        "ruleset",
+        "sln",
+        "suo",
+        "vb",
+        "vbs",
+        "vcxitems",
+        "vcxitems.filters",
+        "vcxproj",
+        "vcxproj.filters"
+      ]
+    },
+    {
+      "name": "database.svg",
+      "fileExtensions": [
+        "pdb",
+        "sql",
+        "pks",
+        "pkb",
+        "accdb",
+        "mdb",
+        "sqlite",
+        "sqlite3",
+        "pgsql",
+        "postgres",
+        "psql",
+        "db",
+        "db3"
+      ]
+    },
+    {
+      "name": "kusto.svg",
+      "fileExtensions": [
+        "kql"
+      ]
+    },
+    {
+      "name": "csharp.svg",
+      "fileExtensions": [
+        "cs",
+        "csx",
+        "csharp"
+      ]
+    },
+    {
+      "name": "qsharp.svg",
+      "fileExtensions": [
+        "qs"
+      ]
+    },
+    {
+      "name": "zip.svg",
+      "fileExtensions": [
+        "zip",
+        "tar",
+        "gz",
+        "xz",
+        "lzma",
+        "lz4",
+        "br",
+        "bz2",
+        "bzip2",
+        "gzip",
+        "brotli",
+        "7z",
+        "rar",
+        "tz",
+        "txz",
+        "tgz",
+        "zst"
+      ]
+    },
+    {
+      "name": "vala.svg",
+      "fileExtensions": [
+        "vala"
+      ]
+    },
+    {
+      "name": "zig.svg",
+      "fileExtensions": [
+        "zig"
+      ]
+    },
+    {
+      "name": "exe.svg",
+      "fileExtensions": [
+        "exe",
+        "msi"
+      ]
+    },
+    {
+      "name": "hex.svg",
+      "fileExtensions": [
+        "dat",
+        "bin",
+        "hex"
+      ]
+    },
+    {
+      "name": "java.svg",
+      "fileExtensions": [
+        "java",
+        "jsp"
+      ]
+    },
+    {
+      "name": "jar.svg",
+      "fileExtensions": [
+        "jar"
+      ]
+    },
+    {
+      "name": "javaclass.svg",
+      "fileExtensions": [
+        "class"
+      ]
+    },
+    {
+      "name": "c.svg",
+      "fileExtensions": [
+        "c",
+        "i",
+        "mi"
+      ]
+    },
+    {
+      "name": "h.svg",
+      "fileExtensions": [
+        "h"
+      ]
+    },
+    {
+      "name": "cpp.svg",
+      "fileExtensions": [
+        "cc",
+        "cpp",
+        "cxx",
+        "c++",
+        "cp",
+        "mii",
+        "ii"
+      ]
+    },
+    {
+      "name": "hpp.svg",
+      "fileExtensions": [
+        "hh",
+        "hpp",
+        "hxx",
+        "h++",
+        "hp",
+        "tcc",
+        "inl"
+      ]
+    },
+    {
+      "name": "objective-c.svg",
+      "fileExtensions": [
+        "m"
+      ]
+    },
+    {
+      "name": "objective-cpp.svg",
+      "fileExtensions": [
+        "mm"
+      ]
+    },
+    {
+      "name": "rc.svg",
+      "fileExtensions": [
+        "rc"
+      ]
+    },
+    {
+      "name": "go.svg",
+      "fileExtensions": [
+        "go"
+      ]
+    },
+    {
+      "name": "go-mod.svg",
+      "fileNames": [
+        "go.mod",
+        "go.sum",
+        "go.work",
+        "go.work.sum"
+      ]
+    },
+    {
+      "name": "python.svg",
+      "fileExtensions": [
+        "py"
+      ]
+    },
+    {
+      "name": "python-misc.svg",
+      "fileExtensions": [
+        "pyc",
+        "whl"
+      ],
+      "fileNames": [
+        "requirements.txt",
+        "pipfile",
+        ".python-version",
+        "manifest.in",
+        "pylintrc",
+        ".pylintrc",
+        "pyproject.toml"
+      ]
+    },
+    {
+      "name": "url.svg",
+      "fileExtensions": [
+        "url"
+      ]
+    },
+    {
+      "name": "console.svg",
+      "fileExtensions": [
+        "sh",
+        "ksh",
+        "csh",
+        "tcsh",
+        "zsh",
+        "bash",
+        "bat",
+        "cmd",
+        "awk",
+        "fish",
+        "exp",
+        "nu"
+      ],
+      "fileNames": [
+        "commit-msg",
+        "pre-commit",
+        "pre-push",
+        "post-merge"
+      ]
+    },
+    {
+      "name": "powershell.svg",
+      "fileExtensions": [
+        "ps1",
+        "psm1",
+        "psd1",
+        "ps1xml",
+        "psc1",
+        "pssc"
+      ]
+    },
+    {
+      "name": "gradle.svg",
+      "fileExtensions": [
+        "gradle"
+      ],
+      "fileNames": [
+        "gradle.properties",
+        "gradlew",
+        "gradle-wrapper.properties"
+      ]
+    },
+    {
+      "name": "word.svg",
+      "fileExtensions": [
+        "doc",
+        "docx",
+        "rtf",
+        "odt"
+      ]
+    },
+    {
+      "name": "certificate.svg",
+      "fileExtensions": [
+        "cer",
+        "cert",
+        "crt"
+      ],
+      "fileNames": [
+        "copying",
+        "copying.md",
+        "copying.rst",
+        "copying.txt",
+        "copyright",
+        "copyright.md",
+        "copyright.rst",
+        "copyright.txt",
+        "license",
+        "license-agpl",
+        "license-apache",
+        "license-bsd",
+        "license-mit",
+        "license-gpl",
+        "license-lgpl",
+        "license.md",
+        "license.rst",
+        "license.txt",
+        "licence",
+        "licence-agpl",
+        "licence-apache",
+        "licence-bsd",
+        "licence-mit",
+        "licence-gpl",
+        "licence-lgpl",
+        "licence.md",
+        "licence.rst",
+        "licence.txt"
+      ]
+    },
+    {
+      "name": "key.svg",
+      "fileExtensions": [
+        "pub",
+        "key",
+        "pem",
+        "asc",
+        "gpg",
+        "passwd"
+      ],
+      "fileNames": [
+        ".htpasswd"
+      ]
+    },
+    {
+      "name": "font.svg",
+      "fileExtensions": [
+        "woff",
+        "woff2",
+        "ttf",
+        "eot",
+        "suit",
+        "otf",
+        "bmap",
+        "fnt",
+        "odttf",
+        "ttc",
+        "font",
+        "fonts",
+        "sui",
+        "ntf",
+        "mrf"
+      ]
+    },
+    {
+      "name": "lib.svg",
+      "fileExtensions": [
+        "lib",
+        "bib"
+      ]
+    },
+    {
+      "name": "ruby.svg",
+      "fileExtensions": [
+        "rb",
+        "erb",
+        "rbs"
+      ],
+      "fileNames": [
+        ".ruby-version"
+      ]
+    },
+    {
+      "name": "gemfile.svg",
+      "fileNames": [
+        "gemfile"
+      ]
+    },
+    {
+      "name": "rubocop.svg",
+      "fileNames": [
+        ".rubocop.yml",
+        ".rubocop-todo.yml",
+        ".rubocop_todo.yml"
+      ]
+    },
+    {
+      "name": "fsharp.svg",
+      "fileExtensions": [
+        "fs",
+        "fsx",
+        "fsi",
+        "fsproj"
+      ]
+    },
+    {
+      "name": "swift.svg",
+      "fileExtensions": [
+        "swift"
+      ]
+    },
+    {
+      "name": "arduino.svg",
+      "fileExtensions": [
+        "ino"
+      ]
+    },
+    {
+      "name": "docker.svg",
+      "fileExtensions": [
+        "dockerignore",
+        "dockerfile",
+        "docker-compose.yml",
+        "docker-compose.yaml",
+        "containerignore",
+        "containerfile",
+        "compose.yaml",
+        "compose.yml"
+      ],
+      "fileNames": [
+        "dockerfile",
+        "dockerfile.prod",
+        "dockerfile.production",
+        "dockerfile.alpha",
+        "dockerfile.beta",
+        "dockerfile.stage",
+        "dockerfile.staging",
+        "dockerfile.dev",
+        "dockerfile.development",
+        "dockerfile.local",
+        "dockerfile.test",
+        "dockerfile.testing",
+        "dockerfile.ci",
+        "dockerfile.web",
+        "dockerfile.worker",
+        "docker-compose.yml",
+        "docker-compose.override.yml",
+        "docker-compose.prod.yml",
+        "docker-compose.production.yml",
+        "docker-compose.alpha.yml",
+        "docker-compose.beta.yml",
+        "docker-compose.stage.yml",
+        "docker-compose.staging.yml",
+        "docker-compose.dev.yml",
+        "docker-compose.development.yml",
+        "docker-compose.local.yml",
+        "docker-compose.test.yml",
+        "docker-compose.testing.yml",
+        "docker-compose.ci.yml",
+        "docker-compose.web.yml",
+        "docker-compose.worker.yml",
+        "docker-compose.yaml",
+        "docker-compose.override.yaml",
+        "docker-compose.prod.yaml",
+        "docker-compose.production.yaml",
+        "docker-compose.alpha.yaml",
+        "docker-compose.beta.yaml",
+        "docker-compose.stage.yaml",
+        "docker-compose.staging.yaml",
+        "docker-compose.dev.yaml",
+        "docker-compose.development.yaml",
+        "docker-compose.local.yaml",
+        "docker-compose.test.yaml",
+        "docker-compose.testing.yaml",
+        "docker-compose.ci.yaml",
+        "docker-compose.web.yaml",
+        "docker-compose.worker.yaml",
+        "containerfile",
+        "containerfile.prod",
+        "containerfile.production",
+        "containerfile.alpha",
+        "containerfile.beta",
+        "containerfile.stage",
+        "containerfile.staging",
+        "containerfile.dev",
+        "containerfile.development",
+        "containerfile.local",
+        "containerfile.test",
+        "containerfile.testing",
+        "containerfile.ci",
+        "containerfile.web",
+        "containerfile.worker",
+        "compose.yaml",
+        "compose.override.yaml",
+        "compose.prod.yaml",
+        "compose.production.yaml",
+        "compose.alpha.yaml",
+        "compose.beta.yaml",
+        "compose.stage.yaml",
+        "compose.staging.yaml",
+        "compose.dev.yaml",
+        "compose.development.yaml",
+        "compose.local.yaml",
+        "compose.test.yaml",
+        "compose.testing.yaml",
+        "compose.ci.yaml",
+        "compose.web.yaml",
+        "compose.worker.yaml",
+        "compose.yml",
+        "compose.override.yml",
+        "compose.prod.yml",
+        "compose.production.yml",
+        "compose.alpha.yml",
+        "compose.beta.yml",
+        "compose.stage.yml",
+        "compose.staging.yml",
+        "compose.dev.yml",
+        "compose.development.yml",
+        "compose.local.yml",
+        "compose.test.yml",
+        "compose.testing.yml",
+        "compose.ci.yml",
+        "compose.web.yml",
+        "compose.worker.yml"
+      ]
+    },
+    {
+      "name": "tex.svg",
+      "fileExtensions": [
+        "tex",
+        "sty",
+        "dtx",
+        "ltx"
+      ]
+    },
+    {
+      "name": "powerpoint.svg",
+      "fileExtensions": [
+        "pptx",
+        "ppt",
+        "pptm",
+        "potx",
+        "potm",
+        "ppsx",
+        "ppsm",
+        "pps",
+        "ppam",
+        "ppa",
+        "odp"
+      ]
+    },
+    {
+      "name": "video.svg",
+      "fileExtensions": [
+        "webm",
+        "mkv",
+        "flv",
+        "vob",
+        "ogv",
+        "ogg",
+        "gifv",
+        "avi",
+        "mov",
+        "qt",
+        "wmv",
+        "yuv",
+        "rm",
+        "rmvb",
+        "mp4",
+        "m4v",
+        "mpg",
+        "mp2",
+        "mpeg",
+        "mpe",
+        "mpv",
+        "m2v"
+      ]
+    },
+    {
+      "name": "virtual.svg",
+      "fileExtensions": [
+        "vdi",
+        "vbox",
+        "vbox-prev"
+      ]
+    },
+    {
+      "name": "email.svg",
+      "fileExtensions": [
+        "ics"
+      ],
+      "fileNames": [
+        ".mailmap"
+      ]
+    },
+    {
+      "name": "audio.svg",
+      "fileExtensions": [
+        "mp3",
+        "flac",
+        "m4a",
+        "wma",
+        "aiff",
+        "wav"
+      ]
+    },
+    {
+      "name": "coffee.svg",
+      "fileExtensions": [
+        "coffee",
+        "cson",
+        "iced"
+      ]
+    },
+    {
+      "name": "document.svg",
+      "fileExtensions": [
+        "txt"
+      ]
+    },
+    {
+      "name": "graphql.svg",
+      "fileExtensions": [
+        "graphql",
+        "gql"
+      ],
+      "fileNames": [
+        ".graphqlconfig",
+        ".graphqlrc",
+        ".graphqlrc.json",
+        ".graphqlrc.js",
+        ".graphqlrc.cjs",
+        ".graphqlrc.ts",
+        ".graphqlrc.toml",
+        ".graphqlrc.yaml",
+        ".graphqlrc.yml",
+        "graphql.config.json",
+        "graphql.config.js",
+        "graphql.config.cjs",
+        "graphql.config.ts",
+        "graphql.config.toml",
+        "graphql.config.yaml",
+        "graphql.config.yml"
+      ]
+    },
+    {
+      "name": "rust.svg",
+      "fileExtensions": [
+        "rs",
+        "ron"
+      ]
+    },
+    {
+      "name": "raml.svg",
+      "fileExtensions": [
+        "raml"
+      ]
+    },
+    {
+      "name": "xaml.svg",
+      "fileExtensions": [
+        "xaml"
+      ]
+    },
+    {
+      "name": "haskell.svg",
+      "fileExtensions": [
+        "hs"
+      ]
+    },
+    {
+      "name": "kotlin.svg",
+      "fileExtensions": [
+        "kt",
+        "kts"
+      ]
+    },
+    {
+      "name": "otne.svg",
+      "fileExtensions": [
+        "otne"
+      ]
+    },
+    {
+      "name": "git.svg",
+      "fileExtensions": [
+        "patch"
+      ],
+      "fileNames": [
+        ".git",
+        ".gitignore",
+        ".gitmessage",
+        ".gitignore-global",
+        ".gitignore_global",
+        ".gitattributes",
+        ".gitattributes-global",
+        ".gitattributes_global",
+        ".gitconfig",
+        ".gitmodules",
+        ".gitkeep",
+        ".keep",
+        ".gitpreserve",
+        ".gitinclude",
+        ".git-blame-ignore",
+        ".git-blame-ignore-revs",
+        ".git-for-windows-updater",
+        "git-history"
+      ]
+    },
+    {
+      "name": "lua.svg",
+      "fileExtensions": [
+        "lua"
+      ],
+      "fileNames": [
+        ".luacheckrc"
+      ]
+    },
+    {
+      "name": "clojure.svg",
+      "fileExtensions": [
+        "clj",
+        "cljs",
+        "cljc"
+      ]
+    },
+    {
+      "name": "groovy.svg",
+      "fileExtensions": [
+        "groovy"
+      ]
+    },
+    {
+      "name": "r.svg",
+      "fileExtensions": [
+        "r",
+        "rmd"
+      ],
+      "fileNames": [
+        ".Rhistory"
+      ]
+    },
+    {
+      "name": "dart.svg",
+      "fileExtensions": [
+        "dart"
+      ],
+      "fileNames": [
+        ".pubignore"
+      ]
+    },
+    {
+      "name": "dart_generated.svg",
+      "fileExtensions": [
+        "freezed.dart",
+        "g.dart"
+      ]
+    },
+    {
+      "name": "actionscript.svg",
+      "fileExtensions": [
+        "as"
+      ]
+    },
+    {
+      "name": "mxml.svg",
+      "fileExtensions": [
+        "mxml"
+      ]
+    },
+    {
+      "name": "autohotkey.svg",
+      "fileExtensions": [
+        "ahk"
+      ]
+    },
+    {
+      "name": "flash.svg",
+      "fileExtensions": [
+        "swf"
+      ]
+    },
+    {
+      "name": "swc.svg",
+      "fileExtensions": [
+        "swc"
+      ]
+    },
+    {
+      "name": "cmake.svg",
+      "fileExtensions": [
+        "cmake"
+      ],
+      "fileNames": [
+        "cmakelists.txt",
+        "cmakecache.txt"
+      ]
+    },
+    {
+      "name": "assembly.svg",
+      "fileExtensions": [
+        "asm",
+        "a51",
+        "inc",
+        "nasm",
+        "s",
+        "ms",
+        "agc",
+        "ags",
+        "aea",
+        "argus",
+        "mitigus",
+        "binsource"
+      ]
+    },
+    {
+      "name": "vue.svg",
+      "fileExtensions": [
+        "vue"
+      ]
+    },
+    {
+      "name": "semgrep.svg",
+      "fileNames": [
+        "semgrep.yml",
+        ".semgrepignore"
+      ]
+    },
+    {
+      "name": "vue-config.svg",
+      "fileNames": [
+        "vue.config.js",
+        "vue.config.ts",
+        "vetur.config.js",
+        "vetur.config.ts",
+        "volar.config.js"
+      ]
+    },
+    {
+      "name": "vuex-store.svg",
+      "fileExtensions": [
+        "store.js",
+        "store.ts"
+      ],
+      "fileNames": [
+        "store.js",
+        "store.ts"
+      ]
+    },
+    {
+      "name": "nuxt.svg",
+      "fileNames": [
+        "nuxt.config.js",
+        "nuxt.config.ts",
+        ".nuxtignore"
+      ]
+    },
+    {
+      "name": "ocaml.svg",
+      "fileExtensions": [
+        "ml",
+        "mli",
+        "cmx"
+      ]
+    },
+    {
+      "name": "odin.svg",
+      "fileExtensions": [
+        "odin"
+      ]
+    },
+    {
+      "name": "javascript-map.svg",
+      "fileExtensions": [
+        "js.map",
+        "mjs.map",
+        "cjs.map"
+      ]
+    },
+    {
+      "name": "css-map.svg",
+      "fileExtensions": [
+        "css.map"
+      ]
+    },
+    {
+      "name": "lock.svg",
+      "fileExtensions": [
+        "lock"
+      ],
+      "fileNames": [
+        "security.md",
+        "security.txt",
+        "security"
+      ]
+    },
+    {
+      "name": "handlebars.svg",
+      "fileExtensions": [
+        "hbs",
+        "mustache"
+      ]
+    },
+    {
+      "name": "perl.svg",
+      "fileExtensions": [
+        "pm",
+        "raku"
+      ]
+    },
+    {
+      "name": "haxe.svg",
+      "fileExtensions": [
+        "hx"
+      ]
+    },
+    {
+      "name": "test-ts.svg",
+      "fileExtensions": [
+        "spec.ts",
+        "spec.cts",
+        "spec.mts",
+        "cy.ts",
+        "e2e-spec.ts",
+        "e2e-spec.cts",
+        "e2e-spec.mts",
+        "test.ts",
+        "test.cts",
+        "test.mts",
+        "ts.snap",
+        "spec-d.ts",
+        "test-d.ts"
+      ]
+    },
+    {
+      "name": "test-jsx.svg",
+      "fileExtensions": [
+        "spec.tsx",
+        "test.tsx",
+        "tsx.snap",
+        "spec.jsx",
+        "test.jsx",
+        "jsx.snap",
+        "cy.jsx",
+        "cy.tsx",
+        "spec-d.tsx",
+        "test-d.tsx"
+      ]
+    },
+    {
+      "name": "test-js.svg",
+      "fileExtensions": [
+        "spec.js",
+        "spec.cjs",
+        "spec.mjs",
+        "e2e-spec.js",
+        "e2e-spec.cjs",
+        "e2e-spec.mjs",
+        "test.js",
+        "test.cjs",
+        "test.mjs",
+        "js.snap",
+        "cy.js"
+      ]
+    },
+    {
+      "name": "angular.svg",
+      "fileExtensions": [
+        "module.ts",
+        "module.js",
+        "ng-template"
+      ],
+      "fileNames": [
+        "angular-cli.json",
+        ".angular-cli.json",
+        "angular.json",
+        "ng-package.json"
+      ]
+    },
+    {
+      "name": "angular-component.svg",
+      "fileExtensions": [
+        "component.ts",
+        "component.js"
+      ]
+    },
+    {
+      "name": "angular-guard.svg",
+      "fileExtensions": [
+        "guard.ts",
+        "guard.js"
+      ]
+    },
+    {
+      "name": "angular-service.svg",
+      "fileExtensions": [
+        "service.ts",
+        "service.js"
+      ]
+    },
+    {
+      "name": "angular-pipe.svg",
+      "fileExtensions": [
+        "pipe.ts",
+        "pipe.js",
+        "filter.js"
+      ]
+    },
+    {
+      "name": "angular-directive.svg",
+      "fileExtensions": [
+        "directive.ts",
+        "directive.js"
+      ]
+    },
+    {
+      "name": "angular-resolver.svg",
+      "fileExtensions": [
+        "resolver.ts",
+        "resolver.js"
+      ]
+    },
+    {
+      "name": "puppet.svg",
+      "fileExtensions": [
+        "pp"
+      ]
+    },
+    {
+      "name": "elixir.svg",
+      "fileExtensions": [
+        "ex",
+        "exs",
+        "eex",
+        "leex",
+        "heex"
+      ]
+    },
+    {
+      "name": "livescript.svg",
+      "fileExtensions": [
+        "ls"
+      ]
+    },
+    {
+      "name": "erlang.svg",
+      "fileExtensions": [
+        "erl"
+      ]
+    },
+    {
+      "name": "twig.svg",
+      "fileExtensions": [
+        "twig"
+      ]
+    },
+    {
+      "name": "julia.svg",
+      "fileExtensions": [
+        "jl"
+      ]
+    },
+    {
+      "name": "elm.svg",
+      "fileExtensions": [
+        "elm"
+      ]
+    },
+    {
+      "name": "purescript.svg",
+      "fileExtensions": [
+        "pure",
+        "purs"
+      ]
+    },
+    {
+      "name": "smarty.svg",
+      "fileExtensions": [
+        "tpl"
+      ]
+    },
+    {
+      "name": "stylus.svg",
+      "fileExtensions": [
+        "styl"
+      ]
+    },
+    {
+      "name": "reason.svg",
+      "fileExtensions": [
+        "re",
+        "rei"
+      ]
+    },
+    {
+      "name": "bucklescript.svg",
+      "fileExtensions": [
+        "cmj"
+      ]
+    },
+    {
+      "name": "merlin.svg",
+      "fileExtensions": [
+        "merlin"
+      ]
+    },
+    {
+      "name": "verilog.svg",
+      "fileExtensions": [
+        "vhd",
+        "sv",
+        "svh"
+      ]
+    },
+    {
+      "name": "mathematica.svg",
+      "fileExtensions": [
+        "nb"
+      ]
+    },
+    {
+      "name": "wolframlanguage.svg",
+      "fileExtensions": [
+        "wl",
+        "wls"
+      ]
+    },
+    {
+      "name": "nunjucks.svg",
+      "fileExtensions": [
+        "njk",
+        "nunjucks"
+      ]
+    },
+    {
+      "name": "robot.svg",
+      "fileExtensions": [
+        "robot"
+      ]
+    },
+    {
+      "name": "solidity.svg",
+      "fileExtensions": [
+        "sol"
+      ]
+    },
+    {
+      "name": "autoit.svg",
+      "fileExtensions": [
+        "au3"
+      ]
+    },
+    {
+      "name": "haml.svg",
+      "fileExtensions": [
+        "haml"
+      ]
+    },
+    {
+      "name": "yang.svg",
+      "fileExtensions": [
+        "yang"
+      ]
+    },
+    {
+      "name": "mjml.svg",
+      "fileExtensions": [
+        "mjml"
+      ],
+      "fileNames": [
+        ".mjmlconfig"
+      ]
+    },
+    {
+      "name": "vercel.svg",
+      "fileNames": [
+        "vercel.json",
+        ".vercelignore",
+        "now.json",
+        ".nowignore"
+      ]
+    },
+    {
+      "name": "verdaccio.svg",
+      "fileNames": [
+        "verdaccio.yml"
+      ]
+    },
+    {
+      "name": "next.svg",
+      "fileNames": [
+        "next.config.js",
+        "next.config.mjs",
+        "next.config.ts",
+        "next.config.mts"
+      ]
+    },
+    {
+      "name": "remix.svg",
+      "fileNames": [
+        "remix.config.js",
+        "remix.config.ts"
+      ]
+    },
+    {
+      "name": "terraform.svg",
+      "fileExtensions": [
+        "tf",
+        "tf.json",
+        "tfvars",
+        "tfstate",
+        "tfbackend"
+      ]
+    },
+    {
+      "name": "laravel.svg",
+      "fileExtensions": [
+        "blade.php",
+        "inky.php"
+      ],
+      "fileNames": [
+        "artisan"
+      ]
+    },
+    {
+      "name": "applescript.svg",
+      "fileExtensions": [
+        "applescript",
+        "ipa"
+      ]
+    },
+    {
+      "name": "cake.svg",
+      "fileExtensions": [
+        "cake"
+      ]
+    },
+    {
+      "name": "cucumber.svg",
+      "fileExtensions": [
+        "feature",
+        "features"
+      ]
+    },
+    {
+      "name": "nim.svg",
+      "fileExtensions": [
+        "nim",
+        "nimble"
+      ]
+    },
+    {
+      "name": "apiblueprint.svg",
+      "fileExtensions": [
+        "apib",
+        "apiblueprint"
+      ]
+    },
+    {
+      "name": "riot.svg",
+      "fileExtensions": [
+        "riot",
+        "tag"
+      ]
+    },
+    {
+      "name": "vfl.svg",
+      "fileExtensions": [
+        "vfl"
+      ],
+      "fileNames": [
+        ".vfl"
+      ]
+    },
+    {
+      "name": "kl.svg",
+      "fileExtensions": [
+        "kl"
+      ],
+      "fileNames": [
+        ".kl"
+      ]
+    },
+    {
+      "name": "postcss.svg",
+      "fileExtensions": [
+        "pcss",
+        "sss"
+      ],
+      "fileNames": [
+        "postcss.config.js",
+        "postcss.config.cjs",
+        "postcss.config.ts",
+        "postcss.config.cts",
+        ".postcssrc.js",
+        ".postcssrc.cjs",
+        ".postcssrc.ts",
+        ".postcssrc.cts",
+        ".postcssrc",
+        ".postcssrc.json",
+        ".postcssrc.yaml",
+        ".postcssrc.yml"
+      ]
+    },
+    {
+      "name": "posthtml.svg",
+      "fileNames": [
+        "posthtml.config.js",
+        ".posthtmlrc.js",
+        ".posthtmlrc",
+        ".posthtmlrc.json",
+        ".posthtmlrc.yml"
+      ]
+    },
+    {
+      "name": "todo.svg",
+      "fileExtensions": [
+        "todo"
+      ],
+      "fileNames": [
+        "todo.md",
+        "todos.md"
+      ]
+    },
+    {
+      "name": "coldfusion.svg",
+      "fileExtensions": [
+        "cfml",
+        "cfc",
+        "lucee",
+        "cfm"
+      ]
+    },
+    {
+      "name": "cabal.svg",
+      "fileExtensions": [
+        "cabal"
+      ],
+      "fileNames": [
+        "cabal.project",
+        "cabal.project.freeze",
+        "cabal.project.local"
+      ]
+    },
+    {
+      "name": "nix.svg",
+      "fileExtensions": [
+        "nix"
+      ]
+    },
+    {
+      "name": "slim.svg",
+      "fileExtensions": [
+        "slim"
+      ]
+    },
+    {
+      "name": "http.svg",
+      "fileExtensions": [
+        "http",
+        "rest"
+      ],
+      "fileNames": [
+        "CNAME"
+      ]
+    },
+    {
+      "name": "restql.svg",
+      "fileExtensions": [
+        "rql",
+        "restql"
+      ]
+    },
+    {
+      "name": "kivy.svg",
+      "fileExtensions": [
+        "kv"
+      ]
+    },
+    {
+      "name": "graphcool.svg",
+      "fileExtensions": [
+        "graphcool"
+      ],
+      "fileNames": [
+        "project.graphcool"
+      ]
+    },
+    {
+      "name": "sbt.svg",
+      "fileExtensions": [
+        "sbt"
+      ]
+    },
+    {
+      "name": "webpack.svg",
+      "fileNames": [
+        "webpack.js",
+        "webpack.cjs",
+        "webpack.mjs",
+        "webpack.ts",
+        "webpack.cts",
+        "webpack.mts",
+        "webpack.base.js",
+        "webpack.base.cjs",
+        "webpack.base.mjs",
+        "webpack.base.ts",
+        "webpack.base.cts",
+        "webpack.base.mts",
+        "webpack.config.js",
+        "webpack.config.cjs",
+        "webpack.config.mjs",
+        "webpack.config.ts",
+        "webpack.config.cts",
+        "webpack.config.mts",
+        "webpack.common.js",
+        "webpack.common.cjs",
+        "webpack.common.mjs",
+        "webpack.common.ts",
+        "webpack.common.cts",
+        "webpack.common.mts",
+        "webpack.config.common.js",
+        "webpack.config.common.cjs",
+        "webpack.config.common.mjs",
+        "webpack.config.common.ts",
+        "webpack.config.common.cts",
+        "webpack.config.common.mts",
+        "webpack.config.common.babel.js",
+        "webpack.config.common.babel.ts",
+        "webpack.dev.js",
+        "webpack.dev.cjs",
+        "webpack.dev.mjs",
+        "webpack.dev.ts",
+        "webpack.dev.cts",
+        "webpack.dev.mts",
+        "webpack.development.js",
+        "webpack.development.cjs",
+        "webpack.development.mjs",
+        "webpack.development.ts",
+        "webpack.development.cts",
+        "webpack.development.mts",
+        "webpack.config.dev.js",
+        "webpack.config.dev.cjs",
+        "webpack.config.dev.mjs",
+        "webpack.config.dev.ts",
+        "webpack.config.dev.cts",
+        "webpack.config.dev.mts",
+        "webpack.config.dev.babel.js",
+        "webpack.config.dev.babel.ts",
+        "webpack.config.main.js",
+        "webpack.config.renderer.ts",
+        "webpack.mix.js",
+        "webpack.mix.cjs",
+        "webpack.mix.mjs",
+        "webpack.mix.ts",
+        "webpack.mix.cts",
+        "webpack.mix.mts",
+        "webpack.prod.js",
+        "webpack.prod.cjs",
+        "webpack.prod.mjs",
+        "webpack.prod.ts",
+        "webpack.prod.cts",
+        "webpack.prod.mts",
+        "webpack.prod.config.js",
+        "webpack.prod.config.cjs",
+        "webpack.prod.config.mjs",
+        "webpack.prod.config.ts",
+        "webpack.prod.config.cts",
+        "webpack.prod.config.mts",
+        "webpack.production.js",
+        "webpack.production.cjs",
+        "webpack.production.mjs",
+        "webpack.production.ts",
+        "webpack.production.cts",
+        "webpack.production.mts",
+        "webpack.server.js",
+        "webpack.server.cjs",
+        "webpack.server.mjs",
+        "webpack.server.ts",
+        "webpack.server.cts",
+        "webpack.server.mts",
+        "webpack.client.js",
+        "webpack.client.cjs",
+        "webpack.client.mjs",
+        "webpack.client.ts",
+        "webpack.client.cts",
+        "webpack.client.mts",
+        "webpack.config.server.js",
+        "webpack.config.server.cjs",
+        "webpack.config.server.mjs",
+        "webpack.config.server.ts",
+        "webpack.config.server.cts",
+        "webpack.config.server.mts",
+        "webpack.config.client.js",
+        "webpack.config.client.cjs",
+        "webpack.config.client.mjs",
+        "webpack.config.client.ts",
+        "webpack.config.client.cts",
+        "webpack.config.client.mts",
+        "webpack.config.production.babel.js",
+        "webpack.config.production.babel.ts",
+        "webpack.config.prod.babel.js",
+        "webpack.config.prod.babel.cjs",
+        "webpack.config.prod.babel.mjs",
+        "webpack.config.prod.babel.ts",
+        "webpack.config.prod.babel.cts",
+        "webpack.config.prod.babel.mts",
+        "webpack.config.prod.js",
+        "webpack.config.prod.cjs",
+        "webpack.config.prod.mjs",
+        "webpack.config.prod.ts",
+        "webpack.config.prod.cts",
+        "webpack.config.prod.mts",
+        "webpack.config.production.js",
+        "webpack.config.production.cjs",
+        "webpack.config.production.mjs",
+        "webpack.config.production.ts",
+        "webpack.config.production.cts",
+        "webpack.config.production.mts",
+        "webpack.config.staging.js",
+        "webpack.config.staging.cjs",
+        "webpack.config.staging.mjs",
+        "webpack.config.staging.ts",
+        "webpack.config.staging.cts",
+        "webpack.config.staging.mts",
+        "webpack.config.babel.js",
+        "webpack.config.babel.ts",
+        "webpack.config.base.babel.js",
+        "webpack.config.base.babel.ts",
+        "webpack.config.base.js",
+        "webpack.config.base.cjs",
+        "webpack.config.base.mjs",
+        "webpack.config.base.ts",
+        "webpack.config.base.cts",
+        "webpack.config.base.mts",
+        "webpack.config.staging.babel.js",
+        "webpack.config.staging.babel.ts",
+        "webpack.config.coffee",
+        "webpack.config.test.js",
+        "webpack.config.test.cjs",
+        "webpack.config.test.mjs",
+        "webpack.config.test.ts",
+        "webpack.config.test.cts",
+        "webpack.config.test.mts",
+        "webpack.config.vendor.js",
+        "webpack.config.vendor.cjs",
+        "webpack.config.vendor.mjs",
+        "webpack.config.vendor.ts",
+        "webpack.config.vendor.cts",
+        "webpack.config.vendor.mts",
+        "webpack.config.vendor.production.js",
+        "webpack.config.vendor.production.cjs",
+        "webpack.config.vendor.production.mjs",
+        "webpack.config.vendor.production.ts",
+        "webpack.config.vendor.production.cts",
+        "webpack.config.vendor.production.mts",
+        "webpack.test.js",
+        "webpack.test.cjs",
+        "webpack.test.mjs",
+        "webpack.test.ts",
+        "webpack.test.cts",
+        "webpack.test.mts",
+        "webpack.dist.js",
+        "webpack.dist.cjs",
+        "webpack.dist.mjs",
+        "webpack.dist.ts",
+        "webpack.dist.cts",
+        "webpack.dist.mts",
+        "webpackfile.js",
+        "webpackfile.cjs",
+        "webpackfile.mjs",
+        "webpackfile.ts",
+        "webpackfile.cts",
+        "webpackfile.mts"
+      ]
+    },
+    {
+      "name": "ionic.svg",
+      "fileNames": [
+        "ionic.config.json",
+        ".io-config.json"
+      ]
+    },
+    {
+      "name": "gulp.svg",
+      "fileNames": [
+        "gulpfile.js",
+        "gulpfile.mjs",
+        "gulpfile.ts",
+        "gulpfile.cts",
+        "gulpfile.mts",
+        "gulpfile.babel.js"
+      ]
+    },
+    {
+      "name": "nodejs.svg",
+      "fileNames": [
+        "package.json",
+        "package-lock.json",
+        ".nvmrc",
+        ".esmrc",
+        ".node-version"
+      ]
+    },
+    {
+      "name": "npm.svg",
+      "fileNames": [
+        ".npmignore",
+        ".npmrc"
+      ]
+    },
+    {
+      "name": "yarn.svg",
+      "fileNames": [
+        ".yarnrc",
+        "yarn.lock",
+        ".yarnclean",
+        ".yarn-integrity",
+        "yarn-error.log",
+        ".yarnrc.yml",
+        ".yarnrc.yaml"
+      ]
+    },
+    {
+      "name": "android.svg",
+      "fileNames": [
+        "androidmanifest.xml"
+      ],
+      "fileExtensions": [
+        "apk",
+        "smali",
+        "dex"
+      ]
+    },
+    {
+      "name": "tune.svg",
+      "fileExtensions": [
+        "env"
+      ],
+      "fileNames": [
+        ".env.defaults",
+        ".env.example",
+        ".env.sample",
+        ".env.template",
+        ".env.schema",
+        ".env.local",
+        ".env.dev",
+        ".env.development",
+        ".env.alpha",
+        ".env.e2e",
+        ".env.qa",
+        ".env.dist",
+        ".env.prod",
+        ".env.production",
+        ".env.stage",
+        ".env.staging",
+        ".env.preview",
+        ".env.test",
+        ".env.testing",
+        ".env.development.local",
+        ".env.qa.local",
+        ".env.production.local",
+        ".env.staging.local",
+        ".env.test.local",
+        ".env.uat"
+      ]
+    },
+    {
+      "name": "turborepo.svg",
+      "fileNames": [
+        "turbo.json"
+      ]
+    },
+    {
+      "name": "babel.svg",
+      "fileNames": [
+        ".babelrc",
+        ".babelrc.cjs",
+        ".babelrc.js",
+        ".babelrc.mjs",
+        ".babelrc.json",
+        "babel.config.cjs",
+        "babel.config.js",
+        "babel.config.mjs",
+        "babel.config.json",
+        "babel-transform.js",
+        ".babel-plugin-macrosrc",
+        ".babel-plugin-macrosrc.json",
+        ".babel-plugin-macrosrc.yaml",
+        ".babel-plugin-macrosrc.yml",
+        ".babel-plugin-macrosrc.js",
+        "babel-plugin-macros.config.js"
+      ]
+    },
+    {
+      "name": "blitz.svg",
+      "fileNames": [
+        "blitz.config.js",
+        "blitz.config.ts",
+        ".blitz.config.compiled.js"
+      ]
+    },
+    {
+      "name": "contributing.svg",
+      "fileNames": [
+        "contributing.md",
+        "contributing.rst",
+        "contributing.txt",
+        "contributing"
+      ]
+    },
+    {
+      "name": "readme.svg",
+      "fileNames": [
+        "readme.md",
+        "readme.rst",
+        "readme.txt",
+        "readme"
+      ]
+    },
+    {
+      "name": "changelog.svg",
+      "fileNames": [
+        "changelog",
+        "changelog.md",
+        "changelog.rst",
+        "changelog.txt",
+        "changes",
+        "changes.md",
+        "changes.rst",
+        "changes.txt"
+      ]
+    },
+    {
+      "name": "architecture.svg",
+      "fileNames": [
+        "architecture.md",
+        "architecture.rst",
+        "architecture.txt",
+        "architecture"
+      ]
+    },
+    {
+      "name": "credits.svg",
+      "fileNames": [
+        "credits.md",
+        "credits.rst",
+        "credits.txt",
+        "credits"
+      ]
+    },
+    {
+      "name": "authors.svg",
+      "fileNames": [
+        "authors.md",
+        "authors.rst",
+        "authors.txt",
+        "authors",
+        "contributors.md",
+        "contributors.rst",
+        "contributors.txt",
+        "contributors"
+      ]
+    },
+    {
+      "name": "flow.svg",
+      "fileNames": [
+        ".flowconfig"
+      ]
+    },
+    {
+      "name": "favicon.svg",
+      "fileNames": [
+        "favicon.ico"
+      ]
+    },
+    {
+      "name": "karma.svg",
+      "fileNames": [
+        "karma.conf.js",
+        "karma.conf.ts",
+        "karma.conf.coffee",
+        "karma.config.js",
+        "karma.config.ts",
+        "karma-main.js",
+        "karma-main.ts"
+      ]
+    },
+    {
+      "name": "bithound.svg",
+      "fileNames": [
+        ".bithoundrc"
+      ]
+    },
+    {
+      "name": "svgo.svg",
+      "fileNames": [
+        "svgo.config.js",
+        "svgo.config.cjs",
+        "svgo.config.mjs"
+      ]
+    },
+    {
+      "name": "appveyor.svg",
+      "fileNames": [
+        ".appveyor.yml",
+        "appveyor.yml"
+      ]
+    },
+    {
+      "name": "travis.svg",
+      "fileNames": [
+        ".travis.yml"
+      ]
+    },
+    {
+      "name": "codecov.svg",
+      "fileNames": [
+        ".codecov.yml",
+        "codecov.yml"
+      ]
+    },
+    {
+      "name": "sonarcloud.svg",
+      "fileNames": [
+        "sonar-project.properties",
+        ".sonarcloud.properties",
+        "sonarcloud.yaml"
+      ]
+    },
+    {
+      "name": "protractor.svg",
+      "fileNames": [
+        "protractor.conf.js",
+        "protractor.conf.ts",
+        "protractor.conf.coffee",
+        "protractor.config.js",
+        "protractor.config.ts"
+      ]
+    },
+    {
+      "name": "fusebox.svg",
+      "fileNames": [
+        "fuse.js"
+      ]
+    },
+    {
+      "name": "heroku.svg",
+      "fileNames": [
+        "procfile",
+        "procfile.windows"
+      ]
+    },
+    {
+      "name": "editorconfig.svg",
+      "fileNames": [
+        ".editorconfig"
+      ]
+    },
+    {
+      "name": "gitlab.svg",
+      "fileExtensions": [
+        "gitlab-ci.yml"
+      ]
+    },
+    {
+      "name": "bower.svg",
+      "fileNames": [
+        ".bowerrc",
+        "bower.json"
+      ]
+    },
+    {
+      "name": "eslint.svg",
+      "fileNames": [
+        ".eslintrc.js",
+        ".eslintrc.cjs",
+        ".eslintrc.yaml",
+        ".eslintrc.yml",
+        ".eslintrc.json",
+        ".eslintrc-md.js",
+        ".eslintrc-jsdoc.js",
+        ".eslintrc",
+        ".eslintignore",
+        ".eslintcache",
+        "eslint.config.js",
+        "eslint.config.mjs",
+        ".eslintrc.base.json"
+      ]
+    },
+    {
+      "name": "conduct.svg",
+      "fileNames": [
+        "code_of_conduct.md",
+        "code_of_conduct.txt",
+        "code_of_conduct"
+      ]
+    },
+    {
+      "name": "watchman.svg",
+      "fileNames": [
+        ".watchmanconfig"
+      ]
+    },
+    {
+      "name": "aurelia.svg",
+      "fileNames": [
+        "aurelia.json"
+      ]
+    },
+    {
+      "name": "auto.svg",
+      "fileNames": [
+        ".autorc",
+        "auto.config.js",
+        "auto.config.ts",
+        "auto-config.json",
+        "auto-config.yaml",
+        "auto-config.yml",
+        "auto-config.ts",
+        "auto-config.js"
+      ]
+    },
+    {
+      "name": "mocha.svg",
+      "fileNames": [
+        "mocha.opts",
+        ".mocharc.yml",
+        ".mocharc.yaml",
+        ".mocharc.js",
+        ".mocharc.json",
+        ".mocharc.jsonc"
+      ]
+    },
+    {
+      "name": "jenkins.svg",
+      "fileNames": [
+        "jenkinsfile"
+      ],
+      "fileExtensions": [
+        "jenkinsfile",
+        "jenkins"
+      ]
+    },
+    {
+      "name": "firebase.svg",
+      "fileNames": [
+        "firebase.json",
+        ".firebaserc",
+        "firestore.rules",
+        "firestore.indexes.json"
+      ]
+    },
+    {
+      "name": "figma.svg",
+      "fileExtensions": [
+        "fig"
+      ]
+    },
+    {
+      "name": "rollup.svg",
+      "fileNames": [
+        "rollup.config.js",
+        "rollup.config.mjs",
+        "rollup.config.ts",
+        "rollup-config.js",
+        "rollup-config.mjs",
+        "rollup-config.ts",
+        "rollup.config.common.js",
+        "rollup.config.common.mjs",
+        "rollup.config.common.ts",
+        "rollup.config.base.js",
+        "rollup.config.base.mjs",
+        "rollup.config.base.ts",
+        "rollup.config.prod.js",
+        "rollup.config.prod.mjs",
+        "rollup.config.prod.ts",
+        "rollup.config.dev.js",
+        "rollup.config.dev.mjs",
+        "rollup.config.dev.ts",
+        "rollup.config.prod.vendor.js",
+        "rollup.config.prod.vendor.mjs",
+        "rollup.config.prod.vendor.ts"
+      ]
+    },
+    {
+      "name": "hack.svg",
+      "fileNames": [
+        ".hhconfig"
+      ]
+    },
+    {
+      "name": "hardhat.svg",
+      "fileNames": [
+        "hardhat.config.js",
+        "hardhat.config.ts"
+      ]
+    },
+    {
+      "name": "stylelint.svg",
+      "fileNames": [
+        ".stylelintrc",
+        "stylelint.config.js",
+        "stylelint.config.cjs",
+        "stylelint.config.mjs",
+        ".stylelintrc.json",
+        ".stylelintrc.yaml",
+        ".stylelintrc.yml",
+        ".stylelintrc.js",
+        ".stylelintrc.cjs",
+        ".stylelintignore",
+        ".stylelintcache"
+      ]
+    },
+    {
+      "name": "code-climate.svg",
+      "fileNames": [
+        ".codeclimate.yml"
+      ]
+    },
+    {
+      "name": "prettier.svg",
+      "fileNames": [
+        ".prettierrc",
+        "prettier.config.js",
+        "prettier.config.cjs",
+        ".prettierrc.js",
+        ".prettierrc.cjs",
+        ".prettierrc.json",
+        ".prettierrc.json5",
+        ".prettierrc.yaml",
+        ".prettierrc.yml",
+        ".prettierignore",
+        ".prettierrc.toml",
+        "prettier.config.mjs",
+        ".prettierrc.mjs"
+      ]
+    },
+    {
+      "name": "renovate.svg",
+      "fileNames": [
+        ".renovaterc",
+        ".renovaterc.json",
+        "renovate-config.json",
+        "renovate.json",
+        "renovate.json5"
+      ]
+    },
+    {
+      "name": "apollo.svg",
+      "fileNames": [
+        "apollo.config.js"
+      ]
+    },
+    {
+      "name": "nodemon.svg",
+      "fileNames": [
+        "nodemon.json",
+        "nodemon-debug.json"
+      ]
+    },
+    {
+      "name": "ngrx-reducer.svg",
+      "fileExtensions": [
+        "reducer.ts",
+        "rootReducer.ts"
+      ]
+    },
+    {
+      "name": "ngrx-state.svg",
+      "fileExtensions": [
+        "state.ts"
+      ]
+    },
+    {
+      "name": "ngrx-actions.svg",
+      "fileExtensions": [
+        "actions.ts"
+      ]
+    },
+    {
+      "name": "ngrx-effects.svg",
+      "fileExtensions": [
+        "effects.ts"
+      ]
+    },
+    {
+      "name": "ngrx-entity.svg",
+      "fileNames": [
+        ".entity"
+      ]
+    },
+    {
+      "name": "ngrx-selectors.svg",
+      "fileExtensions": [
+        "selectors.ts"
+      ]
+    },
+    {
+      "name": "webhint.svg",
+      "fileNames": [
+        ".hintrc"
+      ]
+    },
+    {
+      "name": "browserlist.svg",
+      "fileNames": [
+        "browserslist",
+        ".browserslistrc"
+      ]
+    },
+    {
+      "name": "crystal.svg",
+      "fileExtensions": [
+        "cr",
+        "ecr"
+      ]
+    },
+    {
+      "name": "snyk.svg",
+      "fileNames": [
+        ".snyk"
+      ]
+    },
+    {
+      "name": "drone.svg",
+      "fileExtensions": [
+        "drone.yml"
+      ],
+      "fileNames": [
+        ".drone.yml"
+      ]
+    },
+    {
+      "name": "cuda.svg",
+      "fileExtensions": [
+        "cu",
+        "cuh"
+      ]
+    },
+    {
+      "name": "log.svg",
+      "fileExtensions": [
+        "log"
+      ]
+    },
+    {
+      "name": "dotjs.svg",
+      "fileExtensions": [
+        "def",
+        "dot",
+        "jst"
+      ]
+    },
+    {
+      "name": "ejs.svg",
+      "fileExtensions": [
+        "ejs"
+      ]
+    },
+    {
+      "name": "sequelize.svg",
+      "fileNames": [
+        ".sequelizerc"
+      ]
+    },
+    {
+      "name": "gatsby.svg",
+      "fileNames": [
+        "gatsby-config.js",
+        "gatsby-config.mjs",
+        "gatsby-config.ts",
+        "gatsby-node.js",
+        "gatsby-node.mjs",
+        "gatsby-node.ts",
+        "gatsby-browser.js",
+        "gatsby-browser.tsx",
+        "gatsby-ssr.js",
+        "gatsby-ssr.tsx"
+      ]
+    },
+    {
+      "name": "wakatime.svg",
+      "fileNames": [
+        ".wakatime-project"
+      ],
+      "fileExtensions": [
+        ".wakatime-project"
+      ]
+    },
+    {
+      "name": "circleci.svg",
+      "fileNames": [
+        "circle.yml"
+      ]
+    },
+    {
+      "name": "cloudfoundry.svg",
+      "fileNames": [
+        ".cfignore"
+      ]
+    },
+    {
+      "name": "grunt.svg",
+      "fileNames": [
+        "gruntfile.js",
+        "gruntfile.ts",
+        "gruntfile.coffee",
+        "gruntfile.babel.js",
+        "gruntfile.babel.ts",
+        "gruntfile.babel.coffee"
+      ]
+    },
+    {
+      "name": "jest.svg",
+      "fileNames": [
+        "jest.config.js",
+        "jest.config.cjs",
+        "jest.config.mjs",
+        "jest.config.ts",
+        "jest.config.cts",
+        "jest.config.mts",
+        "jest.config.json",
+        "jest.e2e.config.js",
+        "jest.e2e.config.cjs",
+        "jest.e2e.config.mjs",
+        "jest.e2e.config.ts",
+        "jest.e2e.config.cts",
+        "jest.e2e.config.mts",
+        "jest.e2e.config.json",
+        "jest.e2e.json",
+        "jest-unit.config.js",
+        "jest-e2e.config.js",
+        "jest-e2e.config.cjs",
+        "jest-e2e.config.mjs",
+        "jest-e2e.config.ts",
+        "jest-e2e.config.cts",
+        "jest-e2e.config.mts",
+        "jest-e2e.config.json",
+        "jest-e2e.json",
+        "jest-github-actions-reporter.js",
+        "jest.setup.js",
+        "jest.setup.ts",
+        "jest.json",
+        ".jestrc",
+        ".jestrc.js",
+        ".jestrc.json",
+        "jest.teardown.js",
+        "jest-preset.json",
+        "jest-preset.js",
+        "jest-preset.cjs",
+        "jest-preset.mjs",
+        "jest.preset.js",
+        "jest.preset.mjs",
+        "jest.preset.cjs",
+        "jest.preset.json"
+      ]
+    },
+    {
+      "name": "processing.svg",
+      "fileExtensions": [
+        "pde"
+      ]
+    },
+    {
+      "name": "storybook.svg",
+      "fileExtensions": [
+        "stories.js",
+        "stories.jsx",
+        "stories.mdx",
+        "story.js",
+        "story.jsx",
+        "stories.ts",
+        "stories.tsx",
+        "story.ts",
+        "story.tsx",
+        "stories.svelte",
+        "story.mdx"
+      ]
+    },
+    {
+      "name": "wepy.svg",
+      "fileExtensions": [
+        "wpy"
+      ]
+    },
+    {
+      "name": "fastlane.svg",
+      "fileNames": [
+        "fastfile",
+        "appfile"
+      ]
+    },
+    {
+      "name": "hcl.svg",
+      "fileExtensions": [
+        "hcl"
+      ]
+    },
+    {
+      "name": "helm.svg",
+      "fileNames": [
+        ".helmignore"
+      ]
+    },
+    {
+      "name": "san.svg",
+      "fileExtensions": [
+        "san"
+      ]
+    },
+    {
+      "name": "wallaby.svg",
+      "fileNames": [
+        "wallaby.js",
+        "wallaby.conf.js"
+      ]
+    },
+    {
+      "name": "django.svg",
+      "fileExtensions": [
+        "djt"
+      ]
+    },
+    {
+      "name": "stencil.svg",
+      "fileNames": [
+        "stencil.config.js",
+        "stencil.config.ts"
+      ]
+    },
+    {
+      "name": "red.svg",
+      "fileExtensions": [
+        "red"
+      ]
+    },
+    {
+      "name": "makefile.svg",
+      "fileExtensions": [
+        "mk"
+      ],
+      "fileNames": [
+        "makefile",
+        "gnumakefile",
+        "kbuild"
+      ]
+    },
+    {
+      "name": "foxpro.svg",
+      "fileExtensions": [
+        "fxp",
+        "prg"
+      ]
+    },
+    {
+      "name": "i18n.svg",
+      "fileExtensions": [
+        "pot",
+        "po",
+        "mo",
+        "lang"
+      ]
+    },
+    {
+      "name": "webassembly.svg",
+      "fileExtensions": [
+        "wat",
+        "wasm"
+      ]
+    },
+    {
+      "name": "semantic-release.svg",
+      "fileNames": [
+        ".releaserc",
+        ".releaserc.yaml",
+        ".releaserc.yml",
+        ".releaserc.json",
+        ".releaserc.js",
+        ".releaserc.cjs",
+        "release.config.js",
+        "release.config.cjs"
+      ]
+    },
+    {
+      "name": "bitbucket.svg",
+      "fileNames": [
+        "bitbucket-pipelines.yaml",
+        "bitbucket-pipelines.yml"
+      ]
+    },
+    {
+      "name": "jupyter.svg",
+      "fileExtensions": [
+        "ipynb"
+      ]
+    },
+    {
+      "name": "d.svg",
+      "fileExtensions": [
+        "d"
+      ]
+    },
+    {
+      "name": "mdx.svg",
+      "fileExtensions": [
+        "mdx"
+      ]
+    },
+    {
+      "name": "mdsvex.svg",
+      "fileExtensions": [
+        "svx"
+      ]
+    },
+    {
+      "name": "ballerina.svg",
+      "fileExtensions": [
+        "bal",
+        "balx"
+      ]
+    },
+    {
+      "name": "racket.svg",
+      "fileExtensions": [
+        "rkt"
+      ]
+    },
+    {
+      "name": "bazel.svg",
+      "fileExtensions": [
+        "bzl",
+        "bazel"
+      ],
+      "fileNames": [
+        ".bazelignore",
+        ".bazelrc",
+        ".bazelversion"
+      ]
+    },
+    {
+      "name": "mint.svg",
+      "fileExtensions": [
+        "mint"
+      ]
+    },
+    {
+      "name": "velocity.svg",
+      "fileExtensions": [
+        "vm",
+        "fhtml",
+        "vtl"
+      ]
+    },
+    {
+      "name": "godot.svg",
+      "fileExtensions": [
+        "gd"
+      ]
+    },
+    {
+      "name": "godot-assets.svg",
+      "fileExtensions": [
+        "godot",
+        "tres",
+        "tscn",
+        "gdns",
+        "gdnlib",
+        "gdshader",
+        "gdshaderinc",
+        "gdextension"
+      ],
+      "fileNames": [
+        ".gdignore",
+        "._sc_",
+        "_sc_"
+      ]
+    },
+    {
+      "name": "azure-pipelines.svg",
+      "fileNames": [
+        "azure-pipelines.yml",
+        "azure-pipelines.yaml"
+      ],
+      "fileExtensions": [
+        "azure-pipelines.yml",
+        "azure-pipelines.yaml"
+      ]
+    },
+    {
+      "name": "azure.svg",
+      "fileExtensions": [
+        "azcli"
+      ]
+    },
+    {
+      "name": "vagrant.svg",
+      "fileNames": [
+        "vagrantfile"
+      ],
+      "fileExtensions": [
+        "vagrantfile"
+      ]
+    },
+    {
+      "name": "prisma.svg",
+      "fileNames": [
+        "prisma.yml"
+      ],
+      "fileExtensions": [
+        "prisma"
+      ]
+    },
+    {
+      "name": "razor.svg",
+      "fileExtensions": [
+        "cshtml",
+        "vbhtml"
+      ]
+    },
+    {
+      "name": "abc.svg",
+      "fileExtensions": [
+        "abc"
+      ]
+    },
+    {
+      "name": "asciidoc.svg",
+      "fileExtensions": [
+        "ad",
+        "adoc",
+        "asciidoc"
+      ]
+    },
+    {
+      "name": "istanbul.svg",
+      "fileNames": [
+        ".nycrc",
+        ".nycrc.json",
+        ".nycrc.yaml",
+        ".nycrc.yml",
+        "nyc.config.js",
+        ".istanbul.yml"
+      ]
+    },
+    {
+      "name": "edge.svg",
+      "fileExtensions": [
+        "edge"
+      ]
+    },
+    {
+      "name": "scheme.svg",
+      "fileExtensions": [
+        "ss",
+        "scm"
+      ]
+    },
+    {
+      "name": "lisp.svg",
+      "fileExtensions": [
+        "lisp",
+        "lsp",
+        "cl",
+        "fast"
+      ]
+    },
+    {
+      "name": "tailwindcss.svg",
+      "fileNames": [
+        "tailwind.js",
+        "tailwind.ts",
+        "tailwind.config.js",
+        "tailwind.config.cjs",
+        "tailwind.config.mjs",
+        "tailwind.config.ts",
+        "tailwind.config.cts",
+        "tailwind.config.mts"
+      ]
+    },
+    {
+      "name": "3d.svg",
+      "fileExtensions": [
+        "stl",
+        "stp",
+        "obj",
+        "o",
+        "ac",
+        "blend",
+        "dxf",
+        "fbx",
+        "mesh",
+        "mqo",
+        "pmd",
+        "pmx",
+        "skp",
+        "vac",
+        "vdp",
+        "vox"
+      ]
+    },
+    {
+      "name": "buildkite.svg",
+      "fileNames": [
+        "buildkite.yml",
+        "buildkite.yaml"
+      ]
+    },
+    {
+      "name": "netlify.svg",
+      "fileNames": [
+        "netlify.json",
+        "netlify.yml",
+        "netlify.yaml",
+        "netlify.toml"
+      ]
+    },
+    {
+      "name": "svg.svg",
+      "fileExtensions": [
+        "svg"
+      ]
+    },
+    {
+      "name": "svelte.svg",
+      "fileExtensions": [
+        "svelte"
+      ],
+      "fileNames": [
+        "svelte.config.js",
+        "svelte.config.cjs"
+      ]
+    },
+    {
+      "name": "vim.svg",
+      "fileExtensions": [
+        "vimrc",
+        "gvimrc",
+        "exrc",
+        "vim",
+        "viminfo"
+      ]
+    },
+    {
+      "name": "nest.svg",
+      "fileNames": [
+        "nest-cli.json",
+        ".nest-cli.json",
+        "nestconfig.json",
+        ".nestconfig.json"
+      ]
+    },
+    {
+      "name": "nest-controller.svg",
+      "fileExtensions": [
+        "controller.ts",
+        "controller.js"
+      ]
+    },
+    {
+      "name": "nest-middleware.svg",
+      "fileExtensions": [
+        "middleware.ts",
+        "middleware.js"
+      ]
+    },
+    {
+      "name": "nest-module.svg",
+      "fileExtensions": [
+        "module.ts",
+        "module.js"
+      ]
+    },
+    {
+      "name": "nest-service.svg",
+      "fileExtensions": [
+        "service.ts",
+        "service.js"
+      ]
+    },
+    {
+      "name": "nest-decorator.svg",
+      "fileExtensions": [
+        "decorator.ts",
+        "decorator.js"
+      ]
+    },
+    {
+      "name": "nest-pipe.svg",
+      "fileExtensions": [
+        "pipe.ts",
+        "pipe.js"
+      ]
+    },
+    {
+      "name": "nest-filter.svg",
+      "fileExtensions": [
+        "filter.ts",
+        "filter.js"
+      ]
+    },
+    {
+      "name": "nest-gateway.svg",
+      "fileExtensions": [
+        "gateway.ts",
+        "gateway.js"
+      ]
+    },
+    {
+      "name": "nest-guard.svg",
+      "fileExtensions": [
+        "guard.ts",
+        "guard.js"
+      ]
+    },
+    {
+      "name": "nest-resolver.svg",
+      "fileExtensions": [
+        "resolver.ts",
+        "resolver.js"
+      ]
+    },
+    {
+      "name": "moonscript.svg",
+      "fileExtensions": [
+        "moon"
+      ]
+    },
+    {
+      "name": "percy.svg",
+      "fileNames": [
+        ".percy.yml"
+      ]
+    },
+    {
+      "name": "gitpod.svg",
+      "fileNames": [
+        ".gitpod.yml"
+      ]
+    },
+    {
+      "name": "advpl_prw.svg",
+      "fileExtensions": [
+        "prw",
+        "prx"
+      ]
+    },
+    {
+      "name": "advpl_ptm.svg",
+      "fileExtensions": [
+        "ptm"
+      ]
+    },
+    {
+      "name": "advpl_tlpp.svg",
+      "fileExtensions": [
+        "tlpp"
+      ]
+    },
+    {
+      "name": "advpl_include.svg",
+      "fileExtensions": [
+        "ch"
+      ]
+    },
+    {
+      "name": "codeowners.svg",
+      "fileNames": [
+        "codeowners",
+        "OWNERS"
+      ]
+    },
+    {
+      "name": "gcp.svg",
+      "fileNames": [
+        ".gcloudignore"
+      ]
+    },
+    {
+      "name": "disc.svg",
+      "fileExtensions": [
+        "iso",
+        "vmdk",
+        "hdd",
+        "qcow",
+        "qcow2",
+        "qed",
+        "dmg"
+      ]
+    },
+    {
+      "name": "fortran.svg",
+      "fileExtensions": [
+        "f",
+        "f77",
+        "f90",
+        "f95",
+        "f03",
+        "f08"
+      ]
+    },
+    {
+      "name": "tcl.svg",
+      "fileExtensions": [
+        "tcl"
+      ]
+    },
+    {
+      "name": "liquid.svg",
+      "fileExtensions": [
+        "liquid"
+      ]
+    },
+    {
+      "name": "prolog.svg",
+      "fileExtensions": [
+        "p",
+        "pro",
+        "pl"
+      ]
+    },
+    {
+      "name": "husky.svg",
+      "fileNames": [
+        ".huskyrc",
+        "husky.config.js",
+        ".huskyrc.json",
+        ".huskyrc.js",
+        ".huskyrc.yaml",
+        ".huskyrc.yml"
+      ]
+    },
+    {
+      "name": "coconut.svg",
+      "fileExtensions": [
+        "coco"
+      ]
+    },
+    {
+      "name": "tilt.svg",
+      "fileNames": [
+        "tiltfile"
+      ]
+    },
+    {
+      "name": "capacitor.svg",
+      "fileNames": [
+        "capacitor.config.json",
+        "capacitor.config.ts"
+      ]
+    },
+    {
+      "name": "sketch.svg",
+      "fileExtensions": [
+        "sketch"
+      ]
+    },
+    {
+      "name": "pawn.svg",
+      "fileExtensions": [
+        "pwn",
+        "amx"
+      ]
+    },
+    {
+      "name": "adonis.svg",
+      "fileNames": [
+        ".adonisrc.json",
+        "ace"
+      ]
+    },
+    {
+      "name": "forth.svg",
+      "fileExtensions": [
+        "4th",
+        "fth",
+        "frt"
+      ]
+    },
+    {
+      "name": "uml.svg",
+      "fileExtensions": [
+        "iuml",
+        "pu",
+        "puml",
+        "plantuml",
+        "wsd"
+      ]
+    },
+    {
+      "name": "meson.svg",
+      "fileNames": [
+        "meson.build",
+        "meson_options.txt"
+      ],
+      "fileExtensions": [
+        "wrap"
+      ]
+    },
+    {
+      "name": "commitlint.svg",
+      "fileNames": [
+        ".commitlintrc",
+        ".commitlintrc.js",
+        ".commitlintrc.cjs",
+        ".commitlintrc.ts",
+        ".commitlintrc.cts",
+        ".commitlintrc.json",
+        ".commitlintrc.yaml",
+        ".commitlintrc.yml",
+        ".commitlint.yaml",
+        ".commitlint.yml",
+        "commitlint.config.js",
+        "commitlint.config.cjs",
+        "commitlint.config.ts",
+        "commitlint.config.cts"
+      ]
+    },
+    {
+      "name": "buck.svg",
+      "fileNames": [
+        ".buckconfig"
+      ]
+    },
+    {
+      "name": "dhall.svg",
+      "fileExtensions": [
+        "dhall",
+        "dhallb"
+      ]
+    },
+    {
+      "name": "sml.svg",
+      "fileExtensions": [
+        "sml",
+        "mlton",
+        "mlb",
+        "sig",
+        "fun",
+        "cm",
+        "lex",
+        "use",
+        "grm"
+      ]
+    },
+    {
+      "name": "nrwl.svg",
+      "fileNames": [
+        "nx.json",
+        ".nxignore"
+      ]
+    },
+    {
+      "name": "opam.svg",
+      "fileExtensions": [
+        "opam"
+      ]
+    },
+    {
+      "name": "dune.svg",
+      "fileNames": [
+        "dune",
+        "dune-project",
+        "dune-workspace",
+        "dune-workspace.dev"
+      ]
+    },
+    {
+      "name": "imba.svg",
+      "fileExtensions": [
+        "imba"
+      ]
+    },
+    {
+      "name": "drawio.svg",
+      "fileExtensions": [
+        "drawio",
+        "dio"
+      ]
+    },
+    {
+      "name": "pascal.svg",
+      "fileExtensions": [
+        "pas"
+      ]
+    },
+    {
+      "name": "shaderlab.svg",
+      "fileExtensions": [
+        "unity"
+      ]
+    },
+    {
+      "name": "roadmap.svg",
+      "fileNames": [
+        "roadmap.md",
+        "roadmap.txt",
+        "timeline.md",
+        "timeline.txt",
+        "milestones.md",
+        "milestones.txt"
+      ]
+    },
+    {
+      "name": "sas.svg",
+      "fileExtensions": [
+        "sas",
+        "sas7bdat",
+        "sashdat",
+        "astore",
+        "ast",
+        "sast"
+      ]
+    },
+    {
+      "name": "nuget.svg",
+      "fileNames": [
+        "nuget.config",
+        ".nuspec",
+        "nuget.exe"
+      ],
+      "fileExtensions": [
+        "nupkg"
+      ]
+    },
+    {
+      "name": "command.svg",
+      "fileExtensions": [
+        "command"
+      ]
+    },
+    {
+      "name": "stryker.svg",
+      "fileNames": [
+        "stryker.conf.json",
+        "stryker.conf.js",
+        "stryker.conf.cjs",
+        "stryker.conf.mjs",
+        ".stryker.conf.json",
+        ".stryker.conf.js",
+        ".stryker.conf.cjs",
+        ".stryker.conf.mjs"
+      ]
+    },
+    {
+      "name": "denizenscript.svg",
+      "fileExtensions": [
+        "dsc"
+      ]
+    },
+    {
+      "name": "modernizr.svg",
+      "fileNames": [
+        ".modernizrrc",
+        ".modernizrrc.js",
+        ".modernizrrc.json"
+      ]
+    },
+    {
+      "name": "slug.svg",
+      "fileNames": [
+        ".slugignore"
+      ]
+    },
+    {
+      "name": "search.svg",
+      "fileExtensions": [
+        "code-search"
+      ]
+    },
+    {
+      "name": "stitches.svg",
+      "fileNames": [
+        "stitches.config.js",
+        "stitches.config.ts"
+      ]
+    },
+    {
+      "name": "nginx.svg",
+      "fileNames": [
+        "nginx.conf"
+      ],
+      "fileExtensions": [
+        "nginx",
+        "nginxconf",
+        "nginxconfig"
+      ]
+    },
+    {
+      "name": "minecraft.svg",
+      "fileExtensions": [
+        "mcfunction",
+        "mcmeta",
+        "mcr",
+        "mca",
+        "mcgame",
+        "mclevel",
+        "mcworld",
+        "mine",
+        "mus",
+        "mcstructure",
+        "mcpack",
+        "mcaddon",
+        "mctemplate",
+        "mcproject"
+      ],
+      "fileNames": [
+        ".mcattributes",
+        ".mcdefinitions",
+        ".mcignore"
+      ]
+    },
+    {
+      "name": "replit.svg",
+      "fileNames": [
+        ".replit"
+      ]
+    },
+    {
+      "name": "rescript.svg",
+      "fileExtensions": [
+        "res"
+      ]
+    },
+    {
+      "name": "rescript-interface.svg",
+      "fileExtensions": [
+        "resi"
+      ]
+    },
+    {
+      "name": "snowpack.svg",
+      "fileNames": [
+        "snowpack.config.js",
+        "snowpack.config.cjs",
+        "snowpack.config.mjs",
+        "snowpack.config.ts",
+        "snowpack.config.cts",
+        "snowpack.config.mts",
+        "snowpack.deps.json",
+        "snowpack.config.json"
+      ]
+    },
+    {
+      "name": "brainfuck.svg",
+      "fileExtensions": [
+        "b",
+        "bf"
+      ]
+    },
+    {
+      "name": "bicep.svg",
+      "fileExtensions": [
+        "bicep"
+      ]
+    },
+    {
+      "name": "cobol.svg",
+      "fileExtensions": [
+        "cob",
+        "cbl"
+      ]
+    },
+    {
+      "name": "grain.svg",
+      "fileExtensions": [
+        "gr"
+      ]
+    },
+    {
+      "name": "lolcode.svg",
+      "fileExtensions": [
+        "lol"
+      ]
+    },
+    {
+      "name": "idris.svg",
+      "fileExtensions": [
+        "idr",
+        "ibc"
+      ]
+    },
+    {
+      "name": "quasar.svg",
+      "fileNames": [
+        "quasar.conf.js",
+        "quasar.config.js"
+      ]
+    },
+    {
+      "name": "dependabot.svg",
+      "fileNames": [
+        "dependabot.yml",
+        "dependabot.yaml"
+      ]
+    },
+    {
+      "name": "pipeline.svg",
+      "fileExtensions": [
+        "pipeline"
+      ]
+    },
+    {
+      "name": "vite.svg",
+      "fileNames": [
+        "vite.config.js",
+        "vite.config.mjs",
+        "vite.config.cjs",
+        "vite.config.ts",
+        "vite.config.cts",
+        "vite.config.mts"
+      ]
+    },
+    {
+      "name": "vitest.svg",
+      "fileNames": [
+        "vitest.config.ts",
+        "vitest.config.mts",
+        "vitest.config.cts",
+        "vitest.config.js",
+        "vitest.config.mjs",
+        "vitest.config.cjs"
+      ]
+    },
+    {
+      "name": "opa.svg",
+      "fileExtensions": [
+        "rego"
+      ]
+    },
+    {
+      "name": "lerna.svg",
+      "fileNames": [
+        "lerna.json"
+      ]
+    },
+    {
+      "name": "windicss.svg",
+      "fileNames": [
+        "windi.config.js",
+        "windi.config.cjs",
+        "windi.config.ts",
+        "windi.config.cts",
+        "windi.config.json"
+      ],
+      "fileExtensions": [
+        "windi"
+      ]
+    },
+    {
+      "name": "textlint.svg",
+      "fileNames": [
+        ".textlintrc",
+        ".textlintrc.js",
+        ".textlintrc.json",
+        ".textlintrc.yml",
+        ".textlintrc.yaml"
+      ]
+    },
+    {
+      "name": "scala.svg",
+      "fileExtensions": [
+        "scala",
+        "sc"
+      ]
+    },
+    {
+      "name": "lilypond.svg",
+      "fileExtensions": [
+        "ly"
+      ]
+    },
+    {
+      "name": "vlang.svg",
+      "fileExtensions": [
+        "v"
+      ],
+      "fileNames": [
+        "vpkg.json",
+        "v.mod"
+      ]
+    },
+    {
+      "name": "chess.svg",
+      "fileExtensions": [
+        "pgn",
+        "fen"
+      ]
+    },
+    {
+      "name": "gemini.svg",
+      "fileExtensions": [
+        "gmi",
+        "gemini"
+      ]
+    },
+    {
+      "name": "sentry.svg",
+      "fileNames": [
+        ".sentryclirc"
+      ]
+    },
+    {
+      "name": "phpunit.svg",
+      "fileNames": [
+        ".phpunit.result.cache",
+        ".phpunit-watcher.yml",
+        "phpunit.xml",
+        "phpunit.xml.dist",
+        "phpunit-watcher.yml",
+        "phpunit-watcher.yml.dist"
+      ]
+    },
+    {
+      "name": "php-cs-fixer.svg",
+      "fileNames": [
+        ".php_cs",
+        ".php_cs.dist",
+        ".php_cs.php",
+        ".php_cs.dist.php",
+        ".php-cs-fixer.php",
+        ".php-cs-fixer.dist.php"
+      ]
+    },
+    {
+      "name": "robots.svg",
+      "fileNames": [
+        "robots.txt"
+      ]
+    },
+    {
+      "name": "tsconfig.svg",
+      "fileNames": [
+        "tsconfig.json",
+        "tsconfig.app.json",
+        "tsconfig.editor.json",
+        "tsconfig.spec.json",
+        "tsconfig.base.json",
+        "tsconfig.build.json",
+        "tsconfig.eslint.json",
+        "tsconfig.lib.json",
+        "tsconfig.lib.prod.json",
+        "tsconfig.node.json",
+        "tsconfig.test.json",
+        "tsconfig.e2e.json",
+        "tsconfig.web.json",
+        "tsconfig.webworker.json",
+        "tsconfig.worker.json",
+        "tsconfig.config.json",
+        "tsconfig.vitest.json",
+        "tsconfig.cjs.json",
+        "tsconfig.esm.json",
+        "tsconfig.mjs.json",
+        "tsconfig.doc.json",
+        "tsconfig.paths.json",
+        "tsconfig.main.json",
+        "tsconfig.renderer.json"
+      ],
+      "fileExtensions": [
+        "tsconfig.json"
+      ]
+    },
+    {
+      "name": "tauri.svg",
+      "fileNames": [
+        "tauri.conf.json",
+        "tauri.config.json",
+        "tauri.linux.conf.json",
+        "tauri.windows.conf.json",
+        "tauri.macos.conf.json",
+        ".taurignore"
+      ],
+      "fileExtensions": [
+        "tauri"
+      ]
+    },
+    {
+      "name": "jsconfig.svg",
+      "fileNames": [
+        "jsconfig.json"
+      ],
+      "fileExtensions": [
+        "jsconfig.json"
+      ]
+    },
+    {
+      "name": "maven.svg",
+      "fileNames": [
+        "maven.config",
+        "jvm.config",
+        "pom.xml"
+      ]
+    },
+    {
+      "name": "ada.svg",
+      "fileExtensions": [
+        "ada",
+        "adb",
+        "ads",
+        "ali"
+      ]
+    },
+    {
+      "name": "serverless.svg",
+      "fileNames": [
+        "serverless.yml",
+        "serverless.yaml",
+        "serverless.json",
+        "serverless.js",
+        "serverless.ts"
+      ]
+    },
+    {
+      "name": "supabase.svg",
+      "fileNames": [
+        "supabase.js",
+        "supabase.py"
+      ]
+    },
+    {
+      "name": "ember.svg",
+      "fileNames": [
+        ".ember-cli",
+        ".ember-cli.js",
+        "ember-cli-builds.js"
+      ]
+    },
+    {
+      "name": "horusec.svg",
+      "fileNames": [
+        "horusec-config.json"
+      ],
+      "fileExtensions": [
+        "horusec-config.json"
+      ]
+    },
+    {
+      "name": "poetry.svg",
+      "fileNames": [
+        "poetry.lock"
+      ]
+    },
+    {
+      "name": "coala.svg",
+      "fileExtensions": [
+        "coarc",
+        "coafile"
+      ]
+    },
+    {
+      "name": "parcel.svg",
+      "fileNames": [
+        ".parcelrc"
+      ]
+    },
+    {
+      "name": "dinophp.svg",
+      "fileExtensions": [
+        "bubble",
+        "html.bubble",
+        "php.bubble"
+      ]
+    },
+    {
+      "name": "teal.svg",
+      "fileExtensions": [
+        "tl"
+      ]
+    },
+    {
+      "name": "template.svg",
+      "fileExtensions": [
+        "template"
+      ]
+    },
+    {
+      "name": "astyle.svg",
+      "fileNames": [
+        ".astylerc"
+      ]
+    },
+    {
+      "name": "shader.svg",
+      "fileExtensions": [
+        "glsl",
+        "vert",
+        "tesc",
+        "tese",
+        "geom",
+        "frag",
+        "comp",
+        "vert.glsl",
+        "tesc.glsl",
+        "tese.glsl",
+        "geom.glsl",
+        "frag.glsl",
+        "comp.glsl",
+        "vertex.glsl",
+        "geometry.glsl",
+        "fragment.glsl",
+        "compute.glsl",
+        "ts.glsl",
+        "gs.glsl",
+        "vs.glsl",
+        "fs.glsl",
+        "shader",
+        "vertexshader",
+        "fragmentshader",
+        "geometryshader",
+        "computeshader",
+        "hlsl",
+        "pixel.hlsl",
+        "geometry.hlsl",
+        "compute.hlsl",
+        "tessellation.hlsl",
+        "px.hlsl",
+        "geom.hlsl",
+        "comp.hlsl",
+        "tess.hlsl",
+        "wgsl"
+      ]
+    },
+    {
+      "name": "lighthouse.svg",
+      "fileNames": [
+        ".lighthouserc.js",
+        "lighthouserc.js",
+        ".lighthouserc.json",
+        "lighthouserc.json",
+        ".lighthouserc.yml",
+        "lighthouserc.yml",
+        ".lighthouserc.yaml",
+        "lighthouserc.yaml"
+      ]
+    },
+    {
+      "name": "svgr.svg",
+      "fileNames": [
+        ".svgrrc",
+        "svgr.config.js",
+        ".svgrrc.js",
+        ".svgrrc.yaml",
+        ".svgrrc.yml",
+        ".svgrrc.json"
+      ]
+    },
+    {
+      "name": "rome.svg",
+      "fileNames": [
+        "rome.json"
+      ]
+    },
+    {
+      "name": "cypress.svg",
+      "fileNames": [
+        "cypress.json",
+        "cypress.env.json",
+        "cypress.config.ts",
+        "cypress.config.js",
+        "cypress.config.cjs",
+        "cypress.config.mjs"
+      ]
+    },
+    {
+      "name": "siyuan.svg",
+      "fileExtensions": [
+        "sy"
+      ]
+    },
+    {
+      "name": "ndst.svg",
+      "fileExtensions": [
+        "ndst.yml",
+        "ndst.yaml",
+        "ndst.json"
+      ]
+    },
+    {
+      "name": "plop.svg",
+      "fileNames": [
+        "plopfile.js",
+        "plopfile.cjs",
+        "plopfile.mjs",
+        "plopfile.ts"
+      ]
+    },
+    {
+      "name": "tobi.svg",
+      "fileExtensions": [
+        "tobi"
+      ]
+    },
+    {
+      "name": "tobimake.svg",
+      "fileNames": [
+        ".tobimake"
+      ]
+    },
+    {
+      "name": "gleam.svg",
+      "fileNames": [
+        "gleam.toml"
+      ],
+      "fileExtensions": [
+        "gleam"
+      ]
+    },
+    {
+      "name": "pnpm.svg",
+      "fileNames": [
+        "pnpm-lock.yaml",
+        "pnpm-workspace.yaml",
+        ".pnpmfile.cjs"
+      ]
+    },
+    {
+      "name": "gridsome.svg",
+      "fileNames": [
+        "gridsome.config.js",
+        "gridsome.server.js"
+      ]
+    },
+    {
+      "name": "steadybit.svg",
+      "fileExtensions": [
+        "steadybit.yml",
+        "steadybit.yaml"
+      ],
+      "fileNames": [
+        ".steadybit.yml",
+        "steadybit.yml",
+        ".steadybit.yaml",
+        "steadybit.yaml"
+      ]
+    },
+    {
+      "name": "tree.svg",
+      "fileExtensions": [
+        "tree"
+      ]
+    },
+    {
+      "name": "cadence.svg",
+      "fileExtensions": [
+        "cdc"
+      ]
+    },
+    {
+      "name": "caddy.svg",
+      "fileNames": [
+        "Caddyfile"
+      ]
+    },
+    {
+      "name": "bun.svg",
+      "fileNames": [
+        "bun.lockb"
+      ]
+    },
+    {
+      "name": "antlr.svg",
+      "fileExtensions": [
+        "g4"
+      ]
+    },
+    {
+      "name": "stylable.svg",
+      "fileExtensions": [
+        "st.css"
+      ]
+    },
+    {
+      "name": "pinejs.svg",
+      "fileExtensions": [
+        "pine"
+      ]
+    },
+    {
+      "name": "nano-staged.svg",
+      "fileNames": [
+        ".nano-staged.js",
+        "nano-staged.js",
+        ".nano-staged.cjs",
+        "nano-staged.cjs",
+        ".nano-staged.mjs",
+        "nano-staged.mjs",
+        ".nano-staged.json",
+        "nano-staged.json",
+        ".nanostagedrc"
+      ]
+    },
+    {
+      "name": "taskfile.svg",
+      "fileExtensions": [
+        "taskfile.yml",
+        "taskfile.yaml"
+      ],
+      "fileNames": [
+        "taskfile.yml",
+        "taskfile.yaml",
+        "taskfile.dist.yml",
+        "taskfile.dist.yaml"
+      ]
+    },
+    {
+      "name": "craco.svg",
+      "fileNames": [
+        "craco.config.ts",
+        "craco.config.js",
+        "craco.config.cjs",
+        ".cracorc.ts",
+        ".cracorc.js",
+        ".cracorc"
+      ]
+    },
+    {
+      "name": "gamemaker.svg",
+      "fileExtensions": [
+        "gml",
+        "yy",
+        "yyp",
+        "yyz"
+      ]
+    },
+    {
+      "name": "tldraw.svg",
+      "fileExtensions": [
+        "tldr"
+      ]
+    },
+    {
+      "name": "mercurial.svg",
+      "fileNames": [
+        ".hg",
+        ".hgignore",
+        ".hgflow",
+        ".hgrc",
+        "hgrc",
+        "mercurial.ini"
+      ]
+    },
+    {
+      "name": "deno.svg",
+      "fileNames": [
+        "deno.json",
+        "deno.jsonc",
+        "deno.lock"
+      ]
+    },
+    {
+      "name": "plastic.svg",
+      "fileNames": [
+        "plastic.branchexplorer",
+        "plastic.selector",
+        "plastic.wktree",
+        "plastic.workspace",
+        "plastic.workspaces"
+      ]
+    },
+    {
+      "name": "typst.svg",
+      "fileExtensions": [
+        "typ"
+      ]
+    },
+    {
+      "name": "unocss.svg",
+      "fileNames": [
+        "uno.config.js",
+        "uno.config.mjs",
+        "uno.config.ts",
+        "uno.config.mts",
+        "unocss.config.js",
+        "unocss.config.mjs",
+        "unocss.config.ts",
+        "unocss.config.mts"
+      ]
+    },
+    {
+      "name": "ifanr-cloud.svg",
+      "fileNames": [
+        ".mincloudrc"
+      ]
+    },
+    {
+      "name": "qwik.svg",
+      "fileExtensions": [
+        "tsx"
+      ]
+    },
+    {
+      "name": "mermaid.svg",
+      "fileExtensions": [
+        "mmd",
+        "mermaid"
+      ]
+    },
+    {
+      "name": "mojo.svg",
+      "fileExtensions": [
+        "mojo",
+        "🔥"
+      ]
+    },
+    {
+      "name": "werf.svg",
+      "fileNames": [
+        "werf.yaml",
+        "werf.yml",
+        "werf-giterminism.yaml",
+        "werf-giterminism.yml"
+      ]
+    },
+    {
+      "name": "roblox.svg",
+      "fileExtensions": [
+        "rbxl",
+        "rbxlx",
+        "rbxm",
+        "rbxmx"
+      ]
+    },
+    {
+      "name": "panda.svg",
+      "fileNames": [
+        "panda.config.ts",
+        "panda.config.js",
+        "panda.config.mjs",
+        "panda.config.mts",
+        "panda.config.cjs"
+      ]
+    },
+    {
+      "name": "biome.svg",
+      "fileNames": [
+        "biome.json"
+      ]
+    },
+    {
+      "name": "esbuild.svg",
+      "fileNames": [
+        "esbuild.js",
+        "esbuild.ts",
+        "esbuild.cjs",
+        "esbuild.mjs",
+        "esbuild.config.js",
+        "esbuild.config.ts",
+        "esbuild.config.cjs",
+        "esbuild.config.mjs"
+      ]
+    },
+    {
+      "name": "spwn.svg",
+      "fileExtensions": [
+        "spwn"
+      ]
+    },
+    {
+      "name": "templ.svg",
+      "fileExtensions": [
+        "templ"
+      ]
+    },
+    {
+      "name": "chrome.svg",
+      "fileExtensions": [
+        "crx"
+      ]
+    },
+    {
+      "name": "stan.svg",
+      "fileExtensions": [
+        "stan"
+      ]
+    },
+    {
+      "name": "abap.svg",
+      "fileExtensions": [
+        "abap",
+        "acds",
+        "asddls"
+      ]
+    },
+    {
+      "name": "lottie.svg",
+      "fileExtensions": [
+        "lottie"
+      ]
+    },
+    {
+      "name": "puppeteer.svg",
+      "fileNames": [
+        ".puppeteerrc.cjs,",
+        ".puppeteerrc.js,",
+        ".puppeteerrc",
+        ".puppeteerrc.json,",
+        ".puppeteerrc.yaml,",
+        "puppeteer.config.js",
+        "puppeteer.config.cjs"
+      ]
+    },
+    {
+      "name": "apps-script.svg",
+      "fileExtensions": [
+        "gs"
+      ]
+    }
+  ]
+}
