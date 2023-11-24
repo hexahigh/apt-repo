@@ -1,0 +1,41 @@
+{
+  "defaultIcon": {
+    "name": "f.png"
+  },
+  "icons": [
+    {
+      "name": "compressed.png",
+      "fileExtensions": [
+        "zip",
+        "tar",
+        "gz",
+        "xz",
+        "lzma",
+        "lz4",
+        "br",
+        "bz2",
+        "bzip2",
+        "gzip",
+        "brotli",
+        "7z",
+        "rar",
+        "tz",
+        "txz",
+        "tgz",
+        "zst",
+        "z"
+      ]
+    },
+    {
+      "name": "binary.png",
+      "fileExtensions": [
+        "exe",
+        "dll",
+        "so",
+        "asm",
+        "wasm",
+        "msi"
+      ]
+    }
+  ]
+}
