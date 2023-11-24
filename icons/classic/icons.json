@@ -34,7 +34,94 @@
         "so",
         "asm",
         "wasm",
-        "msi"
+        "msi",
+        "jar"
+      ]
+    },
+    {
+      "name": "pdf.png",
+      "fileExtensions": [
+        "pdf"
+      ]
+    },
+    {
+      "name": "tar.png",
+      "fileExtensions": [
+        "tar"
+      ]
+    },
+    {
+      "name": "svg.png",
+      "fileExtensions": [
+        "svg",
+        "svz"
+      ]
+    },
+    {
+      "name": "script.png",
+      "fileExtensions": [
+        "go",
+        "py",
+        "js",
+        "ts",
+        "jsx",
+        "tsx",
+        "cjs",
+        "mjs",
+        "c",
+        "h",
+        "cpp",
+        "hpp",
+        "cs",
+        "rb",
+        "pl",
+        "pm",
+        "php",
+        "java",
+        "sh"
+      ]
+    },
+    {
+      "name": "doc.png",
+      "fileExtensions": [
+        "doc",
+        "docx",
+        "odt",
+        "rtf",
+        "wps",
+        "wrd",
+        "wks",
+        "pptx",
+        "ppt",
+        "pot",
+        "pps",
+        "xlsx",
+        "xls",
+        "xlsm",
+        "xlt",
+        "xlm"
+      ]
+    },
+    {
+      "name": "text.png",
+      "fileExtensions": [
+        "txt",
+        "md",
+        "markdown",
+        "rst",
+        "log",
+        "json",
+        "yml",
+        "yaml",
+        "toml",
+        "xml",
+        "csv",
+        "ini",
+        "conf",
+        "config",
+        "cfg",
+        "cnf",
+        "properties"
       ]
     }
   ]
