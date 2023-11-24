@@ -25,7 +25,7 @@ function generateDirectoryListing(dirPath) {
  let parentDir = path.dirname(dirPath);
  let files = fs.readdirSync(dirPath);
  let relativePath = path.relative(__dirname, dirPath);
- let html = `<html><head><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1><h2>Current Directory: ${relativePath}</h2><ul>`;
+ let html = `<!DOCTYPE html><!-- Created by Boofdev - boofdev.eu --><html><head><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1><h2>Current Directory: ${relativePath}</h2><ul>`;
 
  // Add a link to the parent directory at the top of the page
  html += `<li><a href="${path.relative(dirPath, parentDir)}/b-list.html"><img src="back.png" alt="Parent Directory Icon" style="width: 1em; height: 1em;">Parent Directory</a></li>`;
@@ -78,7 +78,7 @@ function generateDirectoryListing(dirPath) {
  }
  });
 
- html += '</ul></body></html>';
+ html += '</ul></body></html><!-- Created by Boofdev - boofdev.eu -->';
 
  if (dirPath === __dirname) {
  fs.writeFileSync(path.join(dirPath, 'index.html'), html);
