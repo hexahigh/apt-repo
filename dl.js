@@ -11,7 +11,7 @@ const iconPack = "material";
 const title = "Boofdev's apt repo";
 const extraCSS =
   "body { background-color: #222; color: #fff; } a:hover { color: #a9a9a9} a:link { color: #d3d3d3 } a:visited { color: #d3d3d3 }" +
-  "li { font-size: 1.5em; border: 1px solid #fff; padding: 5px; margin: 5px 0.5vh; }";
+  "li { font-size: 1.5em; border: 1px solid #fff; padding: 5px; margin: 5px 1500px; }";
 const extraJS = "";
 const blocklist = [".git"]; // Blocklist
 
@@ -79,7 +79,7 @@ function generateDirectoryListing(dirPath) {
           }
         });
         let iconPath = `icons/${iconPack}/img/${iconName_folders}`;
-        html += `<li><img src="${iconPath}" alt="Folder Icon" style="width: 1em; height: 1em;"> <a href="${file}/b-list.html">${file}/</a></li>`;
+        html += `<a href="${file}/b-list.html"><li><img src="${iconPath}" alt="Folder Icon" style="width: 1em; height: 1em;"> ${file}/</li></a>`;
         generateDirectoryListing(fullPath);
       } else {
         const stats = fs.statSync(fullPath);
@@ -101,7 +101,7 @@ function generateDirectoryListing(dirPath) {
 
         let iconPath = `icons/${iconPack}/img/${iconName}`;
 
-        html += `<li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> <a href="${file}">${file}</a> (${fileSize})</li>`;
+        html += `<a href="${file}"><li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> ${file} (${fileSize})</li></a>`;
       }
     });
 
