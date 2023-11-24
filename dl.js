@@ -3,7 +3,7 @@ const path = require('path');
 
 const iconPack = "material"
 const title = "Boofdev's apt repo"
-const extraCSS = ""
+const extraCSS = "body { background-color: #000000; color: #ffffff; }"
 const extraJS = ""
 
 function bytesToSize(bytes) {
