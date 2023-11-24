@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import pretty from 'pretty';
 
 const iconPack = "material"
 const title = "Boofdev's apt repo"
@@ -81,9 +82,9 @@ function generateDirectoryListing(dirPath) {
  html += '</ul></body></html><!-- Created by Boofdev - boofdev.eu -->';
 
  if (dirPath === __dirname) {
- fs.writeFileSync(path.join(dirPath, 'index.html'), html);
+ fs.writeFileSync(path.join(dirPath, 'index.html'), pretty(html));
  } else {
- fs.writeFileSync(path.join(dirPath, 'b-list.html'), html);
+ fs.writeFileSync(path.join(dirPath, 'b-list.html'), pretty(html));
  }
 }
 
