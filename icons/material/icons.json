@@ -221,6 +221,7 @@
       "name": "javascript.svg",
       "fileExtensions": [
         "esx",
+        "js",
         "mjs"
       ]
     },
