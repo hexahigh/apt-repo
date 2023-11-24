@@ -1,6 +1,8 @@
 const fs = require('fs');
 const path = require('path');
 
+const iconPack = "material"
+
 function bytesToSize(bytes) {
  const sizes = ['Bytes', 'KB', 'MB', 'GB', 'TB'];
  if (bytes === 0) return '0 Bytes';
@@ -9,8 +11,8 @@ function bytesToSize(bytes) {
 }
 
 // Read the JSON file
-const iconsFilePath = path.join(__dirname, 'icons/material/icons.json');
-const iconsFilePath_folders = path.join(__dirname, 'icons/material/icons_folders.json');
+const iconsFilePath = path.join(__dirname, `icons/${iconPack}/icons.json`);
+const iconsFilePath_folders = path.join(__dirname, `icons/${iconPack}/icons_folders.json`);
 const iconsData = fs.readFileSync(iconsFilePath);
 const iconsData_folders = fs.readFileSync(iconsFilePath_folders);
 const icons = JSON.parse(iconsData);
@@ -51,7 +53,7 @@ function generateDirectoryListing(dirPath) {
        iconName_folders = icon.name;
      }
    });
-   let iconPath = `icons/material/img/${iconName_folders}`;
+   let iconPath = `icons/${iconPack}/img/${iconName_folders}`;
    html += `<li><img src="${iconPath}" alt="Folder Icon" style="width: 1em; height: 1em;"> <a href="${file}/b-list.html">${file}/</a></li>`;
    generateDirectoryListing(fullPath);
  } else {
@@ -69,7 +71,7 @@ function generateDirectoryListing(dirPath) {
      }
    });
 
-   let iconPath = `icons/material/img/${iconName}`;
+   let iconPath = `icons/${iconPack}/img/${iconName}`;
 
    html += `<li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> <a href="${file}">${file}</a> (${fileSize})</li>`;
  }
