@@ -10,7 +10,8 @@ const __dirname = path.dirname(__filename);
 const iconPack = "material";
 const title = "Boofdev's apt repo";
 const extraCSS =
-  "body { background-color: #222; color: #fff; } a:hover { color: #a9a9a9} a:link { color: #d3d3d3 } a:visited { color: #d3d3d3 }";
+  "body { background-color: #222; color: #fff; } a:hover { color: #a9a9a9} a:link { color: #d3d3d3 } a:visited { color: #d3d3d3 }" +
+  "li { font-size: 1.5em; border: 1px solid #fff; padding: 10px; margin: 5px 0; }";
 const extraJS = "";
 const blocklist = [".git"]; // Blocklist
 
