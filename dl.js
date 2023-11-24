@@ -11,7 +11,7 @@ const iconPack = "material";
 const title = "Boofdev's apt repo";
 const extraCSS =
   "body { background-color: #222; color: #fff; } a:hover { color: #a9a9a9} a:link { color: #d3d3d3 } a:visited { color: #d3d3d3 }" +
-  "li { font-size: 1.5em; border: 1px solid #fff; padding: 10px; margin: 5px 0; }";
+  "li { font-size: 1.5em; border: 1px solid #fff; padding: 5px; margin: 5px 0.5vh; }";
 const extraJS = "";
 const blocklist = [".git"]; // Blocklist
 
@@ -44,7 +44,7 @@ function generateDirectoryListing(dirPath) {
     // If it is, return immediately without generating the directory listing
     return;
   }
-  let html = `<!DOCTYPE html><!-- Created by Boofdev - boofdev.eu --><html><head><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1><h2>Current Directory: ${relativePath}</h2><ul>`;
+  let html = `<!DOCTYPE html><!-- Created by Boofdev - boofdev.eu --><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1><h2>Current Directory: ${relativePath}</h2><ul>`;
 
   // Add a link to the parent directory at the top of the page
   html += `<li><a href="${path.relative(
