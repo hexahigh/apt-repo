@@ -49,10 +49,8 @@ function generateDirectoryListing(dirPath) {
     let fileExtension = path.extname(file).substring(1); // get file extension without the dot
     let iconName_folders = icons_folders.defaultIcon.name;
    
-    icons_folders.icons_folders.forEach((icon) => {
-     if (icon.fileNames.includes(file)) {
-       iconName_folders = icon.name;
-     } else if (icon.fileExtensions.includes(fileExtension)) {
+    icons_folders.icons.forEach((icon) => {
+     if (icon.folderNames.includes(file)) {
        iconName_folders = icon.name;
      }
    });
@@ -67,9 +65,9 @@ function generateDirectoryListing(dirPath) {
    let iconName = icons.defaultIcon.name;
 
    icons.icons.forEach((icon) => {
-     if (icon.fileNames.includes(file)) {
+     if (icon.fileNames && icon.fileNames.includes(file)) {
        iconName = icon.name;
-     } else if (icon.fileExtensions.includes(fileExtension)) {
+     } else if (icon.fileExtensions && icon.fileExtensions.includes(fileExtension)) {
        iconName = icon.name;
      }
    });
