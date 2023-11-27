@@ -14,7 +14,8 @@ const iconPack = config.iconPack || "material";
 const title = config.title || "Boofdev's apt repo";
 const extraCSS = fs.readFileSync(path.join(process.cwd(), config.extraCSS));
 const extraJS = fs.readFileSync(path.join(process.cwd(), config.extraJS));
-const blocklist = config.blocklist || [];
+//const blocklist = config.blocklist || [];
+const blocklist = [/^\.git/];
 
 function bytesToSize(bytes) {
   const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
