@@ -61,7 +61,7 @@ function generateDirectoryListing(dirPath) {
   html += `<li><a href="${path.relative(
     dirPath,
     parentDir
-  )}/b-list.html"><img src="back.png" alt="Parent Directory Icon" style="width: 1em; height: 1em;">Parent Directory</a></li>`;
+  )}/b-list.html"><img src="/icons/back.svg" alt="Parent Directory Icon" style="width: 1em; height: 1em;">Parent Directory</a></li>`;
 
   files
     .sort((a, b) => {
@@ -89,7 +89,7 @@ function generateDirectoryListing(dirPath) {
             iconName_folders = icon.name;
           }
         });
-        let iconPath = `icons/${iconPack}/img/${iconName_folders}`;
+        let iconPath = `/icons/${iconPack}/img/${iconName_folders}`;
         html += `<a href="${file}/b-list.html"><li><img src="${iconPath}" alt="Folder Icon" style="width: 1em; height: 1em;"> ${file}/</li></a>`;
         generateDirectoryListing(fullPath);
       } else {
@@ -110,7 +110,7 @@ function generateDirectoryListing(dirPath) {
           }
         });
 
-        let iconPath = `icons/${iconPack}/img/${iconName}`;
+        let iconPath = `/icons/${iconPack}/img/${iconName}`;
         if (showHashes) {
           const fileHash = generateSHA256Hash(fullPath);
           html += `<a href="${file}"><li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> ${file} (${fileSize}, SHA256: ${fileHash})</li></a>`;
