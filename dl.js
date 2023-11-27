@@ -1,6 +1,7 @@
 import fs from "fs";
 import path from "path";
 import pretty from "pretty";
+import crypto from "crypto";
 import { fileURLToPath } from "url";
 
 const __filename = fileURLToPath(import.meta.url);
@@ -14,8 +15,16 @@ const iconPack = config.iconPack || "material";
 const title = config.title || "Boofdev's apt repo";
 const extraCSS = fs.readFileSync(path.join(process.cwd(), config.extraCSS));
 const extraJS = fs.readFileSync(path.join(process.cwd(), config.extraJS));
-//const blocklist = config.blocklist || [];
 const blocklist = config.blocklist ? config.blocklist.map(regex => new RegExp(regex)) : [];
+const showHashes = config.showHashes || false;
+
+function generateSHA256Hash(file) {
+  const fileBuffer = fs.readFileSync(file);
+  const hashSum = crypto.createHash('sha256');
+  hashSum.update(fileBuffer);
+
+  return hashSum.digest('hex');
+}
 
 function bytesToSize(bytes) {
   const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
@@ -102,9 +111,13 @@ function generateDirectoryListing(dirPath) {
         });
 
         let iconPath = `icons/${iconPack}/img/${iconName}`;
-
-        html += `<a href="${file}"><li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> ${file} (${fileSize})</li></a>`;
-      }
+        if (showHashes) {
+          const fileHash = generateSHA256Hash(fullPath);
+          html += `<a href="${file}"><li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> ${file} (${fileSize}, SHA256: ${fileHash})</li></a>`;
+        } else {
+          html += `<a href="${file}"><li><img src="${iconPath}" alt="${fileExtension} Icon" style="width: 1em; height: 1em;"> ${file} (${fileSize})</li></a>`;
+        }
+        }
     });
 
   html += "</ul></body></html><!-- Created by Boofdev - boofdev.eu -->";

@@ -3,5 +3,6 @@
     "title": "Boofdev's apt repo",
     "extraCSS": "extra.css",
     "extraJS": "extra.js",
-    "blocklist": ["^\\.git", "^\\node_modules"]
+    "blocklist": ["^\\.git", "^\\node_modules"],
+    "showHashes": false
 }
