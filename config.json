@@ -1,0 +1,9 @@
+{
+    "iconpack": "material",
+    "title": "Boofdev's apt repo",
+    "extraCSS": "extra.css",
+    "extraJS": "extra.js",
+    "blocklist": [
+        "/^\\.git/"
+    ]
+}
