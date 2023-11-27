@@ -13,7 +13,7 @@ const extraCSS =
   "body { background-color: #222; color: #fff; } a:hover { color: #a9a9a9} a:link { color: #d3d3d3 } a:visited { color: #d3d3d3 }" +
   "li { font-size: 1.5em; border: 1px solid #fff; padding: 5px; margin: 5px 1500px; }";
 const extraJS = "";
-const blocklist = [".git"]; // Blocklist
+const blocklist = [/^\.git/]; // Blocklist in regex
 
 function bytesToSize(bytes) {
   const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
@@ -40,7 +40,7 @@ function generateDirectoryListing(dirPath) {
   let relativePath = path.relative(__dirname, dirPath);
 
   // Check if the current directory is in the blocklist
-  if (blocklist.includes(currentDir)) {
+  if (blocklist.some((regex) => regex.test(path.relative(process.cwd(), dirPath)))) {
     // If it is, return immediately without generating the directory listing
     return;
   }
