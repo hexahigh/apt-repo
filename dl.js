@@ -15,7 +15,7 @@ const title = config.title || "Boofdev's apt repo";
 const extraCSS = fs.readFileSync(path.join(process.cwd(), config.extraCSS));
 const extraJS = fs.readFileSync(path.join(process.cwd(), config.extraJS));
 //const blocklist = config.blocklist || [];
-const blocklist = [/^\.git/];
+const blocklist = config.blocklist ? config.blocklist.map(regex => new RegExp(regex)) : [];
 
 function bytesToSize(bytes) {
   const sizes = ["Bytes", "KB", "MB", "GB", "TB"];
@@ -42,11 +42,8 @@ function generateDirectoryListing(dirPath) {
   let relativePath = path.relative(process.cwd(), dirPath);
 
   // Check if the current directory is in the blocklist
-  if (
-    blocklist.some((regex) =>
-      new RegExp(regex).test(path.relative(process.cwd(), dirPath))
-    )
-  ) {
+  if (blocklist.some((regex) => regex.test(path.relative(process.cwd(), dirPath)))) {
+    // If it is, return immediately without generating the directory listing
     return;
   }
   let html = `<!DOCTYPE html><!-- Created by Boofdev - boofdev.eu --><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1><h2>Current Directory: ${relativePath}</h2><ul>`;
