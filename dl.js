@@ -23,9 +23,9 @@ function bytesToSize(bytes) {
 }
 
 // Read the JSON file
-const iconsFilePath = path.join(__dirname, `icons/${iconPack}/icons.json`);
+const iconsFilePath = path.join(process.cwd(), `icons/${iconPack}/icons.json`);
 const iconsFilePath_folders = path.join(
-  __dirname,
+  process.cwd(),
   `icons/${iconPack}/icons_folders.json`
 );
 const iconsData = fs.readFileSync(iconsFilePath);
@@ -37,7 +37,7 @@ function generateDirectoryListing(dirPath) {
   const currentDir = path.basename(dirPath);
   let parentDir = path.dirname(dirPath);
   let files = fs.readdirSync(dirPath);
-  let relativePath = path.relative(__dirname, dirPath);
+  let relativePath = path.relative(process.cwd(), dirPath);
 
   // Check if the current directory is in the blocklist
   if (blocklist.some((regex) => regex.test(path.relative(process.cwd(), dirPath)))) {
@@ -107,11 +107,11 @@ function generateDirectoryListing(dirPath) {
 
   html += "</ul></body></html><!-- Created by Boofdev - boofdev.eu -->";
 
-  if (dirPath === __dirname) {
-    fs.writeFileSync(path.join(dirPath, "index.html"), pretty(html));
-  } else {
-    fs.writeFileSync(path.join(dirPath, "b-list.html"), pretty(html));
-  }
+if (dirPath === process.cwd()) {
+  fs.writeFileSync(path.join(dirPath, "index.html"), pretty(html));
+} else {
+  fs.writeFileSync(path.join(dirPath, "b-list.html"), pretty(html));
+}
 }
 
-generateDirectoryListing(__dirname);
+generateDirectoryListing(process.cwd());
