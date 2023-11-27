@@ -41,8 +41,11 @@ function generateDirectoryListing(dirPath) {
   let relativePath = path.relative(process.cwd(), dirPath);
 
   // Check if the current directory is in the blocklist
-  if (blocklist.some((regex) => regex.test(path.relative(process.cwd(), dirPath)))) {
-    // If it is, return immediately without generating the directory listing
+  if (
+    blocklist.some((regex) =>
+      new RegExp(regex).test(path.relative(process.cwd(), dirPath))
+    )
+  ) {
     return;
   }
   let html = `<!DOCTYPE html><!-- Created by Boofdev - boofdev.eu --><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1><h2>Current Directory: ${relativePath}</h2><ul>`;
@@ -108,11 +111,11 @@ function generateDirectoryListing(dirPath) {
 
   html += "</ul></body></html><!-- Created by Boofdev - boofdev.eu -->";
 
-if (dirPath === process.cwd()) {
-  fs.writeFileSync(path.join(dirPath, "index.html"), pretty(html));
-} else {
-  fs.writeFileSync(path.join(dirPath, "b-list.html"), pretty(html));
-}
+  if (dirPath === process.cwd()) {
+    fs.writeFileSync(path.join(dirPath, "index.html"), pretty(html));
+  } else {
+    fs.writeFileSync(path.join(dirPath, "b-list.html"), pretty(html));
+  }
 }
 
 generateDirectoryListing(process.cwd());
