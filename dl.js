@@ -9,6 +9,7 @@ const __dirname = path.dirname(__filename);
 
 const configData = fs.readFileSync("config.json");
 const config = JSON.parse(configData);
+let debCount = 0;
 
 // Load config
 const iconPack = config.iconPack || "material";
@@ -61,7 +62,7 @@ const icons = JSON.parse(iconsData);
 const icons_folders = JSON.parse(iconsData_folders);
 
 if (config.showPackageNum) {
-      const debCount = countDebFiles(process.cwd());
+      debCount = countDebFiles(process.cwd());
 }
 
 function generateDirectoryListing(dirPath) {
