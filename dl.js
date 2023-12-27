@@ -61,7 +61,7 @@ const icons = JSON.parse(iconsData);
 const icons_folders = JSON.parse(iconsData_folders);
 
 if (config.showPackageNum) {
-      const debCount = countDebFiles(dirPath);
+      const debCount = countDebFiles(process.cwd());
 }
 
 function generateDirectoryListing(dirPath) {
