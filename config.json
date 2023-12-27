@@ -4,5 +4,6 @@
     "extraCSS": "extra.css",
     "extraJS": "extra.js",
     "blocklist": ["^\\.git", "^\\node_modules"],
-    "showHashes": false
+    "showHashes": false,
+    "showPackageNum": true
 }
