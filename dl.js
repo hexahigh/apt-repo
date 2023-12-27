@@ -60,6 +60,10 @@ const iconsData_folders = fs.readFileSync(iconsFilePath_folders);
 const icons = JSON.parse(iconsData);
 const icons_folders = JSON.parse(iconsData_folders);
 
+if (config.showPackageNum) {
+      const debCount = countDebFiles(dirPath);
+}
+
 function generateDirectoryListing(dirPath) {
   const currentDir = path.basename(dirPath);
   let parentDir = path.dirname(dirPath);
@@ -73,7 +77,6 @@ function generateDirectoryListing(dirPath) {
   }
   let html = `<!DOCTYPE html><!-- Created by Boofdev - boofdev.eu --><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>${title}</title><style>${extraCSS}</style><script>${extraJS}</script></head><body><h1>${title}</h1>`;
   if (config.showPackageNum) {
-    const debCount = countDebFiles(dirPath);
     html += `<h3>Serving ${debCount} packages</h3>`;
   }
   html += `<h2>Current Directory: ${relativePath}</h2><ul>`;
@@ -142,12 +145,7 @@ function generateDirectoryListing(dirPath) {
     });
 
   html += "</ul></body></html><!-- Created by Boofdev - boofdev.eu -->";
-
-  if (dirPath === process.cwd()) {
-    fs.writeFileSync(path.join(dirPath, "index.html"), pretty(html));
-  } else {
     fs.writeFileSync(path.join(dirPath, "b-list.html"), pretty(html));
-  }
 }
 
 generateDirectoryListing(process.cwd());
